@@ -41,3 +41,10 @@ Special thanks to the incredible community, developers, and open-source tools th
 Code, textures, and binaries are licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 You are allowed to use this mod in your modpack. Any modpack which uses Guide takes **full** responsibility for user support queries. We only support official builds, not custom modified jars.
+
+## 🔗 Quick Links
+
+[![CurseForge](https://shields.io)](https://www.curseforge.com/minecraft/mc-mods/guide)
+[![Modrinth](https://shields.io)](https://modrinth.com/mod/guide-mod)
+[![Discord](https://shields.io)](https://discord.com/invite/5dSRhHyjrs)
+
