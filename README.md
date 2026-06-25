@@ -44,14 +44,12 @@ You are allowed to use this mod in your modpack. Any modpack which uses Guide ta
 
 ## 🔗 Quick Links
 
-<p align="left">
-  <a href="https://curseforge.com">
-    <img src="https://shields.io" alt="CurseForge" />
-  </a>
-  <a href="https://modrinth.com">
-    <img src="https://shields.io" alt="Modrinth" />
-  </a>
-  <a href="https://discord.com">
-    <img src="https://shields.io" alt="Discord" />
-  </a>
-</p>
+---
+
+### [ 💻 **Download on CurseForge** ](https://www.curseforge.com/minecraft/mc-mods/guide)
+
+### [ 💚 **Explore on Modrinth** ](https://modrinth.com/mod/guide-mod)
+
+### [ 💬 **Join Official Discord** ](https://discord.com/invite/5dSRhHyjrs)
+
+---
