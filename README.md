@@ -11,9 +11,9 @@ Now with full multimedia support: video playback (via JavaCV/FFmpeg), animated G
 ## Supported Versions
 
 * **Minecraft 1.20.1 (Forge)** – mod version **1.4.1+**, stable
-* **Minecraft 1.21.1 (NeoForge)** – mod version **1.2.1-NeoForge+**, active development
+* **Minecraft 1.21.1 (NeoForge)** – mod version **1.2.1+**, stable
 
-Both branches share the same feature set, including the multimedia system, Markdown rendering, and multiblock projection. The NeoForge version is being actively updated to reach full feature parity with Forge 1.4.1.
+Both branches share the same feature set, including the multimedia system, Markdown rendering, and multiblock projection. The NeoForge version is fully on par with Forge 1.4.1.
 
 ## Setting up a Workspace / Compiling from Source
 
