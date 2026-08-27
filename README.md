@@ -10,10 +10,10 @@ Now with full multimedia support: video playback (via JavaCV/FFmpeg), animated G
 
 ## Supported Versions
 
-* **Minecraft 1.20.1 (Forge)** – mod version **1.4.0+**, stable
-* **Minecraft 1.21.1 (NeoForge)** – mod version **1.2.0+**, stable
+* **Minecraft 1.20.1 (Forge)** – mod version **1.4.1+**, stable
+* **Minecraft 1.21.1 (NeoForge)** – mod version **1.2.1-NeoForge+**, active development
 
-Both branches share the same feature set, including the multimedia system, Markdown rendering, and multiblock projection. The NeoForge version is fully on par with Forge 1.4.0.
+Both branches share the same feature set, including the multimedia system, Markdown rendering, and multiblock projection. The NeoForge version is being actively updated to reach full feature parity with Forge 1.4.1.
 
 ## Setting up a Workspace / Compiling from Source
 
@@ -31,7 +31,7 @@ Please include the following when creating an issue on our [Issue Tracker](https
 
 * Minecraft version (1.20.1 for Forge, 1.21.1 for NeoForge)
 * Mod loader and version (Forge 47.4.20+ or NeoForge 21.1.0+)
-* Guide mod version (e.g., 1.4.0, 1.2.0-NeoForge)
+* Guide mod version (e.g., 1.4.1, 1.2.1-NeoForge)
 * Versions of any mods potentially related to the issue
 * Any relevant screenshots or layout bugs are greatly appreciated.
 * **For crashes**:
