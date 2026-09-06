@@ -10,8 +10,8 @@ Now with full multimedia support: video playback (via JavaCV/FFmpeg), animated G
 
 ## Supported Versions
 
-* **Minecraft 1.20.1 (Forge)** – mod version **1.4.1+**, stable
-* **Minecraft 1.21.1 (NeoForge)** – mod version **1.2.1+**, stable
+* **Minecraft 1.20.1 (Forge)** – mod version **1.5.0+**, stable
+* **Minecraft 1.21.1 (NeoForge)** – mod version **1.3.0+**, stable
 
 Both branches share the same feature set, including the multimedia system, Markdown rendering, and multiblock projection. The NeoForge version is fully on par with Forge 1.4.1.
 
@@ -20,8 +20,8 @@ Both branches share the same feature set, including the multimedia system, Markd
 Note: Git MUST be installed and in the system path to use our scripts.
 
 * **Setup**: Import Guide as a Gradle project into IntelliJ IDEA. Let it sync dependencies.
-	* **For Forge 1.20.1**: use JDK 17 and the `forge-1.20.1` branch.
-	* **For NeoForge 1.21.1**: use JDK 21 and the `neoforge-1.21.1` branch.
+  * **For Forge 1.20.1**: use JDK 17 and the `forge-1.20.1` branch.
+  * **For NeoForge 1.21.1**: use JDK 21 and the `neoforge-1.21.1` branch.
 * **Build**: Run the `.\gradlew build` command through Terminal. The compiled jar will be in `build/libs/`.
 * **Troubleshooting**: If obscure Gradle issues are found, try running `.\gradlew --stop` and `.\gradlew clean`.
 
@@ -31,12 +31,12 @@ Please include the following when creating an issue on our [Issue Tracker](https
 
 * Minecraft version (1.20.1 for Forge, 1.21.1 for NeoForge)
 * Mod loader and version (Forge 47.4.20+ or NeoForge 21.1.0+)
-* Guide mod version (e.g., 1.4.1, 1.2.1-NeoForge)
+* Guide mod version (e.g., 1.5.0, 1.3.0-NeoForge)
 * Versions of any mods potentially related to the issue
 * Any relevant screenshots or layout bugs are greatly appreciated.
 * **For crashes**:
-	* Detailed steps to reproduce
-	* Full `latest.log` or `crash-report` inside code blocks
+  * Detailed steps to reproduce
+  * Full `latest.log` or `crash-report` inside code blocks
 
 ## Credits
 
@@ -46,7 +46,7 @@ Special thanks to the incredible community, developers, and open-source tools th
 * **vladsch** (https://github.com/vladsch) — For the Flexmark-Java library, the robust Markdown parsing engine used inside our custom UI screens.
 * **LexManos** (https://github.com/LexManos), **cpw** (https://github.com/cpw) & **Minecraft Forge Team** — For creating the FML loading ecosystem, MCP tools, and the excellent modding platform we build upon.
 * **NeoForge Team** — For maintaining the modern fork of Forge and providing the NeoForge modding platform for Minecraft 1.21.1.
-* **JavaCV / FFmpeg community** — For the powerful multimedia libraries enabling video and advanced image decoding.
+* **JavaCV / FFmpeg Community** — For the powerful multimedia libraries enabling video and advanced image decoding.
 * **The Open Source Community** — For tireless dedication to submitting bug reports, documentation guides, and supporting independent mod development.
 
 ## Licenses
