@@ -90,7 +90,7 @@
 <tbody>
 <tr>
 <td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="34" height="34" alt="Forge"/></td>
-<td align="center" width="20%" style="width:20%;"><b>Forge</b><br/><sub>classic platform</sub></td>
+<td align="center" width="20%" style="width:20%;"><b>Forge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.20.1</kbd></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.5.0+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>17</kbd></td>
@@ -99,7 +99,7 @@
 </tr>
 <tr>
 <td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/neo4j/4581C3" width="34" height="34" alt="NeoForge"/></td>
-<td align="center" width="20%" style="width:20%;"><b>NeoForge</b><br/><sub>modern 1.21+</sub></td>
+<td align="center" width="20%" style="width:20%;"><b>NeoForge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.21.1</kbd></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.3.0+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>21</kbd></td>
