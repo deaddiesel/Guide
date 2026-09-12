@@ -252,6 +252,29 @@
   }
 }</code></pre>
 
+<p align="center"><b>🎨 Color format</b></p>
+
+<div align="center">
+
+<p>Colors are written in <code>0xAARRGGBB</code> format:</p>
+
+<table width="100%" cellpadding="10" style="width:100%;">
+<colgroup><col width="12%"/><col width="20%"/><col width="68%"/></colgroup>
+<thead>
+<tr><th align="center" width="12%" style="width:12%;">Channel</th><th align="center" width="20%" style="width:20%;">Range</th><th align="center" width="68%" style="width:68%;">Description</th></tr>
+</thead>
+<tbody>
+<tr><td align="center" width="12%" style="width:12%;"><kbd>AA</kbd></td><td align="center" width="20%" style="width:20%;"><code>00</code> – <code>FF</code></td><td align="center" width="68%" style="width:68%;">Alpha channel (transparency). <code>FF</code> = fully opaque, <code>00</code> = fully transparent</td></tr>
+<tr><td align="center" width="12%" style="width:12%;"><kbd>RR</kbd></td><td align="center" width="20%" style="width:20%;"><code>00</code> – <code>FF</code></td><td align="center" width="68%" style="width:68%;">Red channel</td></tr>
+<tr><td align="center" width="12%" style="width:12%;"><kbd>GG</kbd></td><td align="center" width="20%" style="width:20%;"><code>00</code> – <code>FF</code></td><td align="center" width="68%" style="width:68%;">Green channel</td></tr>
+<tr><td align="center" width="12%" style="width:12%;"><kbd>BB</kbd></td><td align="center" width="20%" style="width:20%;"><code>00</code> – <code>FF</code></td><td align="center" width="68%" style="width:68%;">Blue channel</td></tr>
+</tbody>
+</table>
+
+<sub>▸ Tip: set alpha below <code>FF</code> (e.g. <code>80</code>) to make panels semi-transparent.</sub>
+
+</div>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Reporting%20Issues&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
 
 <div align="center">
