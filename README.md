@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=Guide&amp;fontSize=90&amp;fontAlignY=35&amp;desc=Interactive%20in-game%20guidebooks%20for%20Minecraft&amp;descAlignY=58&amp;descSize=18" width="100%" alt="Guide — Interactive in-game guidebooks for Minecraft"/>
 
-<br/>
+<p><b>🚧 In development</b> &mdash; the features below are part of an upcoming release.</p>
 
 <p align="center">
 <a href="https://github.com/deaddiesel/guide/releases"><img alt="GitHub release version badge" src="https://img.shields.io/github/v/release/deaddiesel/guide?style=for-the-badge&amp;label=Release&amp;color=2ea043&amp;logo=github&amp;logoColor=white"/></a>
