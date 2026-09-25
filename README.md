@@ -23,7 +23,7 @@
 <blockquote>
 <p>🧱 <b>Render complex multiblocks.</b> Parse Markdown right inside the UI.<br/>
 🎬 <b>Play video, GIFs and images</b> — on Windows, macOS and Linux via FFmpeg.<br/>
-🎨 <b>Fully customizable themes,</b> per-book overrides, custom colors, optional visual effects.</p>
+🎨 <b>Fully customizable themes,</b> per-book overrides, custom colors and chapter backgrounds, optional visual effects.</p>
 </blockquote>
 
 <br/>
@@ -45,14 +45,14 @@
 <colgroup><col width="33%"/><col width="33%"/><col width="34%"/></colgroup>
 <tbody>
 <tr>
-<td valign="top" align="left" width="33%" style="width:33%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>favorites</kbd> <kbd>keyboard</kbd> <kbd>hot-reload</kbd></sub></td>
+<td valign="top" align="left" width="33%" style="width:33%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing. Full command suite for listing and opening books.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>/guide list</kbd> <kbd>/guide open</kbd> <kbd>index</kbd> <kbd>hot-reload</kbd></sub></td>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>🧱 Multiblock Projection</h3>Preview and assemble complex structures step by step.<br/><br/><sub><kbd>layers</kbd> <kbd>rotation</kbd> <kbd>zoom</kbd> <kbd>progress HUD</kbd> <kbd>NBT</kbd></sub></td>
 <td valign="top" align="left" width="34%" style="width:34%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd></sub></td>
 </tr>
 <tr>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>🎬 Multimedia</h3>Video, GIF and image playback directly in the book.<br/><br/><sub><kbd>JavaCV</kbd> <kbd>FFmpeg</kbd> <kbd>GIF</kbd> <kbd>WebP</kbd> <kbd>URL</kbd> <kbd>fullscreen</kbd> <kbd>ducking</kbd> <kbd>cache</kbd></sub></td>
-<td valign="top" align="left" width="33%" style="width:33%;"><h3>🎨 Themes</h3>Every UI element is fully themeable via JSON.<br/><br/><sub><kbd>per-book</kbd> <kbd>colors</kbd> <kbd>effects</kbd> <kbd>lock</kbd> <kbd>skinning</kbd></sub></td>
-<td valign="top" align="left" width="34%" style="width:34%;"><h3>🌍 Localization</h3>Each book carries its own translations.<br/><br/><sub><kbd>lang/*.json</kbd> <kbd>fallback</kbd> <kbd>namespaces</kbd> <kbd>runtime</kbd></sub></td>
+<td valign="top" align="left" width="33%" style="width:33%;"><h3>🎨 Themes &amp; Backgrounds</h3>Every UI element is themeable via JSON, including chapter backgrounds.<br/><br/><sub><kbd>per-book</kbd> <kbd>colors</kbd> <kbd>chapterBackground</kbd> <kbd>color</kbd> <kbd>image</kbd> <kbd>URL</kbd> <kbd>effects</kbd> <kbd>lock</kbd></sub></td>
+<td valign="top" align="left" width="34%" style="width:34%;"><h3>🖼️ Universal Images</h3>PNG, JPEG, BMP and GIF supported everywhere — icons, backgrounds, media.<br/><br/><sub><kbd>PNG</kbd> <kbd>JPEG</kbd> <kbd>BMP</kbd> <kbd>GIF</kbd> <kbd>local</kbd> <kbd>server</kbd> <kbd>URL</kbd></sub></td>
 </tr>
 </tbody>
 </table>
@@ -71,10 +71,13 @@
 <tbody>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide</kbd></td><td align="center" width="70%" style="width:70%;">Open the main book catalog from anywhere — no item required</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide reload</kbd></td><td align="center" width="70%" style="width:70%;">Hot-reload all markdown, textures, JSON and themes without restarting the game</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide list</kbd></td><td align="center" width="70%" style="width:70%;">List all books visible to the client. Click a line to insert <kbd>/guide open &lt;namespace&gt;</kbd> into chat; hover for details</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide list server</kbd></td><td align="center" width="70%" style="width:70%;">List books the server is currently distributing. Shows index, namespace, dev marker and disk path in hover</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide open &lt;namespace&gt;</kbd></td><td align="center" width="70%" style="width:70%;">Open a specific book by namespace from chat. Supports tab-completion</td></tr>
 </tbody>
 </table>
 
-<sub>▸ Both commands are available to all players by default — no OP or cheat requirements.</sub>
+<sub>▸ All commands are available to all players by default — no OP or cheat requirements.</sub>
 
 </div>
 
@@ -92,16 +95,16 @@
 <td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="34" height="34" alt="Forge"/></td>
 <td align="center" width="20%" style="width:20%;"><b>Forge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.20.1</kbd></td>
-<td align="center" width="14%" style="width:14%;"><kbd>1.5.0+</kbd></td>
+<td align="center" width="14%" style="width:14%;"><kbd>1.7.0+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>17</kbd></td>
 <td align="center" width="14%" style="width:14%;">🟢 <b>Stable</b></td>
 <td align="center" width="18%" style="width:18%;"><code>forge-1.20.1</code></td>
 </tr>
 <tr>
-<td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/neo4j/4581C3" width="34" height="34" alt="NeoForge"/></td>
+<td align="center" width="10%" style="width:10%;"><img src="https://neoforged.net/img/authors/neoforged.png" width="34" height="34" alt="NeoForge"/></td>
 <td align="center" width="20%" style="width:20%;"><b>NeoForge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.21.1</kbd></td>
-<td align="center" width="14%" style="width:14%;"><kbd>1.3.0+</kbd></td>
+<td align="center" width="14%" style="width:14%;"><kbd>1.5.0+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>21</kbd></td>
 <td align="center" width="14%" style="width:14%;">🟢 <b>Stable</b></td>
 <td align="center" width="18%" style="width:18%;"><code>neoforge-1.21.1</code></td>
@@ -121,7 +124,6 @@
 <colgroup><col width="22%"/><col width="78%"/></colgroup>
 <tbody>
 <tr><td align="center" width="22%" style="width:22%;">🧩 <b>JEI</b></td><td align="center" width="78%" style="width:78%;">Bind chapters to items with <code>@bind:mod_id:item</code>. Click guide item passposts to instantly open recipes.</td></tr>
-<tr><td align="center" width="22%" style="width:22%;">📝 <b>Flexmark-Java</b></td><td align="center" width="78%" style="width:78%;">Full CommonMark-compliant Markdown parsing engine that powers live in-GUI rendering of chapters, tables, links, spoilers, and indentation.</td></tr>
 <tr><td align="center" width="22%" style="width:22%;">🎬 <b>FFmpeg / JavaCV / JavaCPP</b></td><td align="center" width="78%" style="width:78%;">Video decoding, transcoding, and frame-level media access through native <b>FFmpeg</b> binaries, wrapped by <b>JavaCV</b> and bundled via <b>JavaCPP</b> for Windows, macOS, and Linux.</td></tr>
 <tr><td align="center" width="22%" style="width:22%;">💾 <b>Media Cache</b></td><td align="center" width="78%" style="width:78%;">Automatic background music ducking during video / sound playback, plus offline media caching.</td></tr>
 </tbody>
@@ -155,14 +157,22 @@
   "icon": "your_logo.png",
   "bg_music": "background_music",
   "theme": "&lt;theme_id&gt;",
-  "dev_only": false
+  "dev_only": false,
+  "index": 0
 }</code></pre>
+
+<sub>▸ <code>index</code> is optional. Books are sorted by it in the selector (lower = earlier). Books without <code>index</code> fall to the end, sorted by namespace.</sub>
 
 <pre><code>📄 Example standard.json (config/guide/themes/standard.json):
 
 {
   "id": "standard",                                     // unique theme identifier
   "displayName": "guide.theme.standard",                // display name (plain string or translation key)
+  "chapterBackground": {                                // optional chapter background override
+    "type": "color",                                    // "color" or "image"
+    "value": "0x0A0A0A",                                // RGB color (0xRRGGBB) when type = "color"
+    "alpha": 230                                        // 0 = transparent, 255 = opaque
+  },
   "colors": {
 
     // ===== General UI =====
@@ -252,6 +262,31 @@
   }
 }</code></pre>
 
+<pre>🖼️ <strong><code>Chapter Background (optional)</code></strong></pre>
+
+<p align="center">Add a <code>chapterBackground</code> block to your theme to override the default background (blur on NeoForge, gradient overlay on Forge). Three source types are supported:</p>
+
+<pre><code>// Solid color with alpha (0 = transparent, 255 = opaque)
+"chapterBackground": {
+  "type": "color",
+  "value": "0x1A0F2E",
+  "alpha": 230
+}
+
+// Local or server-side image (resolved against the current book folder)
+"chapterBackground": {
+  "type": "image",
+  "path": "textures/bg/my_bg.png"
+}
+
+// Direct URL (downloaded in background, cached on disk)
+"chapterBackground": {
+  "type": "image",
+  "path": "https://example.com/background.jpg"
+}</code></pre>
+
+<sub>▸ Omit <code>chapterBackground</code> entirely to keep the default. URL images appear with a short delay on first load; subsequent openings use the cache. Supports PNG, JPEG, BMP and GIF (first frame).</sub>
+
 <p align="center"><b>🎨 Color format</b></p>
 
 <div align="center">
@@ -289,7 +324,7 @@
 <tbody>
 <tr><td align="center" width="8%" style="width:8%;">🎮</td><td align="center" width="32%" style="width:32%;">Minecraft version</td><td align="center" width="60%" style="width:60%;"><code>1.20.1</code> · <code>1.21.1</code></td></tr>
 <tr><td align="center" width="8%" style="width:8%;">⚙️</td><td align="center" width="32%" style="width:32%;">Loader + version</td><td align="center" width="60%" style="width:60%;"><code>Forge 47.4.20+</code> · <code>NeoForge 21.1.0+</code></td></tr>
-<tr><td align="center" width="8%" style="width:8%;">📦</td><td align="center" width="32%" style="width:32%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.5.0</code> · <code>1.3.0-NeoForge</code></td></tr>
+<tr><td align="center" width="8%" style="width:8%;">📦</td><td align="center" width="32%" style="width:32%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.7.0</code> · <code>1.5.0-NeoForge</code></td></tr>
 <tr><td align="center" width="8%" style="width:8%;">🔗</td><td align="center" width="32%" style="width:32%;">Related mods</td><td align="center" width="60%" style="width:60%;">List of mods that may interact with Guide</td></tr>
 <tr><td align="center" width="8%" style="width:8%;">📸</td><td align="center" width="32%" style="width:32%;">Screenshots</td><td align="center" width="60%" style="width:60%;">Attach if the issue is layout-related</td></tr>
 <tr><td align="center" width="8%" style="width:8%;">💥</td><td align="center" width="32%" style="width:32%;">Crash report</td><td align="center" width="60%" style="width:60%;">Full <code>latest.log</code> or <code>crash-report</code> in a code block</td></tr>
@@ -311,8 +346,8 @@
 </thead>
 <tbody>
 <tr><td align="center" width="10%" style="width:10%;">📖</td><td align="center" width="30%" style="width:30%;"><b>Just Enough Items</b> <sub>(JEI)</sub></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/mezz"><kbd>mezz</kbd></a></td><td align="center" width="35%" style="width:35%;">In-game recipe integration</td></tr>
-<tr><td align="center" width="10%" style="width:10%;">🟧</td><td align="center" width="30%" style="width:30%;"><b>Minecraft Forge</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/LexManos"><kbd>LexManos</kbd></a> · <a href="https://github.com/cpw"><kbd>cpw</kbd></a></td><td align="center" width="35%" style="width:35%;">FML ecosystem · MCP tools</td></tr>
-<tr><td align="center" width="10%" style="width:10%;">🔷</td><td align="center" width="30%" style="width:30%;"><b>NeoForge</b></td><td align="center" width="25%" style="width:25%;"><kbd>NeoForge Team</kbd></td><td align="center" width="35%" style="width:35%;">Modern modding platform for 1.21.1</td></tr>
+<tr><td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="24" height="24" alt="Forge"/></td><td align="center" width="30%" style="width:30%;"><b>Minecraft Forge</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/LexManos"><kbd>LexManos</kbd></a> · <a href="https://github.com/cpw"><kbd>cpw</kbd></a></td><td align="center" width="35%" style="width:35%;">FML ecosystem · MCP tools</td></tr>
+<tr><td align="center" width="10%" style="width:10%;"><img src="https://neoforged.net/img/authors/neoforged.png" width="24" height="24" alt="NeoForge"/></td><td align="center" width="30%" style="width:30%;"><b>NeoForge</b></td><td align="center" width="25%" style="width:25%;"><kbd>NeoForge Team</kbd></td><td align="center" width="35%" style="width:35%;">Modern modding platform for 1.21.1</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🎬</td><td align="center" width="30%" style="width:30%;"><b>JavaCV</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/bytedeco"><kbd>bytedeco</kbd></a></td><td align="center" width="35%" style="width:35%;">Cross-platform Java wrapper for native media libraries</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🎬</td><td align="center" width="30%" style="width:30%;"><b>JavaCPP</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/bytedeco"><kbd>bytedeco</kbd></a></td><td align="center" width="35%" style="width:35%;">Native bindings &amp; prebuilt binaries for FFmpeg / OpenCV</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🎞️</td><td align="center" width="30%" style="width:30%;"><b>FFmpeg</b></td><td align="center" width="25%" style="width:25%;"><a href="https://ffmpeg.org/"><kbd>FFmpeg Team</kbd></a></td><td align="center" width="35%" style="width:35%;">Video decoding, transcoding &amp; stream handling</td></tr>
