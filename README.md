@@ -380,6 +380,27 @@
 
 </div>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Requirements&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Requirements section"/>
+
+<div align="center">
+
+<table width="100%" cellpadding="18" style="width:100%;">
+<colgroup><col width="20%"/><col width="20%"/><col width="25%"/><col width="35%"/></colgroup>
+<thead>
+<tr><th align="center" width="20%" style="width:20%;">Component</th><th align="center" width="20%" style="width:20%;">Minimum</th><th align="center" width="25%" style="width:25%;">Recommended</th><th align="center" width="35%" style="width:35%;">Notes</th></tr>
+</thead>
+<tbody>
+<tr><td align="center" width="20%" style="width:20%;"><b>Minecraft</b></td><td align="center" width="20%" style="width:20%;"><code>1.20.1</code> · <code>1.21.1</code></td><td align="center" width="25%" style="width:25%;"><code>1.20.1</code> or <code>1.21.1</code></td><td align="center" width="35%" style="width:35%;">Pick the branch that matches your loader</td></tr>
+<tr><td align="center" width="20%" style="width:20%;"><b>Loader</b></td><td align="center" width="20%" style="width:20%;"><code>Forge 47.x+</code><br/><code>NeoForge 21.x+</code></td><td align="center" width="25%" style="width:25%;">Latest stable release</td><td align="center" width="35%" style="width:35%;">Only one is required &mdash; choose per branch</td></tr>
+<tr><td align="center" width="20%" style="width:20%;"><b>Java</b></td><td align="center" width="20%" style="width:20%;"><code>JDK 17</code><br/><code>JDK 21</code></td><td align="center" width="25%" style="width:25%;"><code>17</code> for Forge<br/><code>21</code> for NeoForge</td><td align="center" width="35%" style="width:35%;">Version must match the loader branch</td></tr>
+<tr><td align="center" width="20%" style="width:20%;"><b>JEI</b> <sub>(optional)</sub></td><td align="center" width="20%" style="width:20%;">&mdash;</td><td align="center" width="25%" style="width:25%;">Latest for your MC build</td><td align="center" width="35%" style="width:35%;">Only needed for recipe integration via <code>@bind:</code></td></tr>
+</tbody>
+</table>
+
+<sub>▸ Guide works standalone — JEI, Quests, and other integrations are entirely optional.</sub>
+
+</div>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Reporting%20Issues&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Reporting Issues section"/>
 
 <div align="center">
