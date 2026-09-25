@@ -1,21 +1,21 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=Guide&amp;fontSize=90&amp;fontAlignY=35&amp;desc=Interactive%20in-game%20guidebooks%20for%20Minecraft&amp;descAlignY=58&amp;descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=Guide&amp;fontSize=90&amp;fontAlignY=35&amp;desc=Interactive%20in-game%20guidebooks%20for%20Minecraft&amp;descAlignY=58&amp;descSize=18" width="100%" alt="Guide — Interactive in-game guidebooks for Minecraft"/>
 
 <br/>
 
 <p align="center">
-<a href="https://github.com/deaddiesel/guide/releases"><img alt="Release" src="https://img.shields.io/github/v/release/deaddiesel/guide?style=for-the-badge&amp;label=Release&amp;color=2ea043&amp;logo=github&amp;logoColor=white"/></a>
-<a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=white"/></a>
-<a href="https://github.com/deaddiesel/guide/issues"><img alt="Issues" src="https://img.shields.io/github/issues/deaddiesel/guide?style=for-the-badge&amp;color=ff7b72&amp;logo=github&amp;logoColor=white"/></a>
-<a href="https://github.com/deaddiesel/guide/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/deaddiesel/guide?style=for-the-badge&amp;color=ffd33d&amp;logo=github&amp;logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide/releases"><img alt="GitHub release version badge" src="https://img.shields.io/github/v/release/deaddiesel/guide?style=for-the-badge&amp;label=Release&amp;color=2ea043&amp;logo=github&amp;logoColor=white"/></a>
+<a href="https://opensource.org/licenses/MIT"><img alt="MIT License badge" src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide/issues"><img alt="GitHub open issues badge" src="https://img.shields.io/github/issues/deaddiesel/guide?style=for-the-badge&amp;color=ff7b72&amp;logo=github&amp;logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide/stargazers"><img alt="GitHub stars badge" src="https://img.shields.io/github/stars/deaddiesel/guide?style=for-the-badge&amp;color=ffd33d&amp;logo=github&amp;logoColor=white"/></a>
 </p>
 
 <p align="center">
-<a href="https://files.minecraftforge.net/"><img alt="Forge" src="https://img.shields.io/badge/Forge-1.20.1-orange?style=for-the-badge"/></a>
-<a href="https://neoforged.net/"><img alt="NeoForge" src="https://img.shields.io/badge/NeoForge-1.21.1-blue?style=for-the-badge"/></a>
-<a href="https://adoptium.net/"><img alt="Java" src="https://img.shields.io/badge/Java-17%20%7C%2021-ea2845?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white"/></a>
-<a href="https://gradle.org/"><img alt="Gradle" src="https://img.shields.io/badge/Gradle-Build-02303A?style=for-the-badge&amp;logo=gradle&amp;logoColor=white"/></a>
+<a href="https://files.minecraftforge.net/"><img alt="Minecraft Forge 1.20.1 badge" src="https://img.shields.io/badge/Forge-1.20.1-orange?style=for-the-badge"/></a>
+<a href="https://neoforged.net/"><img alt="NeoForge 1.21.1 badge" src="https://img.shields.io/badge/NeoForge-1.21.1-blue?style=for-the-badge"/></a>
+<a href="https://adoptium.net/"><img alt="Java 17 and 21 badge" src="https://img.shields.io/badge/Java-17%20%7C%2021-ea2845?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white"/></a>
+<a href="https://gradle.org/"><img alt="Gradle build badge" src="https://img.shields.io/badge/Gradle-Build-02303A?style=for-the-badge&amp;logo=gradle&amp;logoColor=white"/></a>
 </p>
 
 <br/>
@@ -29,15 +29,15 @@
 <br/>
 
 <p align="center">
-<a href="https://www.curseforge.com/minecraft/mc-mods/guide"><img alt="CurseForge" src="https://img.shields.io/badge/CurseForge-Download-F16436?style=for-the-badge&amp;logo=curseforge&amp;logoColor=white"/></a>
-<a href="https://modrinth.com/mod/guide-mod"><img alt="Modrinth" src="https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&amp;logo=modrinth&amp;logoColor=white"/></a>
-<a href="https://github.com/deaddiesel/guide"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Source-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"/></a>
-<a href="https://discord.gg/GuRnzfp8f9"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white"/></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/guide"><img alt="Download on CurseForge" src="https://img.shields.io/badge/CurseForge-Download-F16436?style=for-the-badge&amp;logo=curseforge&amp;logoColor=white"/></a>
+<a href="https://modrinth.com/mod/guide-mod"><img alt="Download on Modrinth" src="https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&amp;logo=modrinth&amp;logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide"><img alt="View source on GitHub" src="https://img.shields.io/badge/GitHub-Source-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"/></a>
+<a href="https://discord.gg/GuRnzfp8f9"><img alt="Join the Discord server" src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white"/></a>
 </p>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Features&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Features&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Features section"/>
 
 <div align="center">
 
@@ -59,7 +59,77 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Commands&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Feature%20Deep%20Dive&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Feature Deep Dive section"/>
+
+<div align="center">
+
+<table width="100%" cellpadding="16" style="width:100%;">
+<colgroup><col width="22%"/><col width="78%"/></colgroup>
+<tbody>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>📚 Multi-Book Config Autonomy</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Direct-from-Disk Compilation:</b> Automatically maps and loads guidebooks from your local machine at <code>config/guide/books/[book_id]/</code>. No more packing files inside mod JAR archives.</p>
+<p>▸ <b>Automated Blueprint Generation:</b> On the very first launch, the mod extracts a complete, ready-to-build guidebook template into your config folder, protecting custom assets from being overwritten during modpack updates.</p>
+<p>▸ <b>Clean Book Selector:</b> Features a fully responsive book catalog viewport with active filtering, rendering isolated book namespaces cleanly with <b>zero mod-ID conflicts</b>. Book order can be controlled via the optional <code>index</code> field in each <code>book.json</code>.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>⚙️ Hot-Reload &amp; Dev-Friendly Pipeline</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Runtime Layout Swapping (<code>/guide reload</code>):</b> Edit markdown files, layout nodes, textures, or JSON localization tables on your disk and instantly re-populate the guidebook memory in-game. Available to all players by default with <b>no OP/cheat requirements</b>.</p>
+<p>▸ <b>Quick-Access Chat Navigation (<code>/guide</code>):</b> A dedicated chat handle that routes users directly to the main book catalog viewport from anywhere, removing item dependencies.</p>
+<p>▸ <b>Book Listing &amp; Direct Open:</b> <code>/guide list</code> prints all books visible to the client (with index, namespace, dev flag and display name); <code>/guide list server</code> shows what the server is distributing; <code>/guide open &lt;namespace&gt;</code> opens any book by ID with tab-completion.</p>
+<p>▸ <b>Developer Mode Toggle:</b> Hide instructional manuals or blueprints from players via <code>config/guide/guide-client.toml</code> while keeping them active for developers.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>🧭 Premium Navigation &amp; Search Caret</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Overhauled Search Box:</b> Equipped with a clean vertical caret (<code>|</code>) that flawlessly executes movement sequences and text selections across both <b>English and Cyrillic</b> keyboard layouts.</p>
+<p>▸ <b>Smart Sidebar Sub-Menus:</b> Seamlessly nests dropdown sub-chapters (<code>@submenu:</code>) and spoilers behind clicks, optimizing render framerates and preventing layout clipping.</p>
+<p>▸ <b>Unbreakable Tracking &amp; History:</b> Navigation memory locks the expanded state of sidebar submenus, and text hyperlink hitboxes mathematically track lines perfectly under any dynamic scrollbar offset.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>🧩 Advanced Content Rendering</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Natural Text Indentation Support:</b> The Markdown engine fully respects space and tab blocks at the start of text sequences, allowing for structured nested lists without desyncing hyperlink areas.</p>
+<p>▸ <b>Direct Media Streaming:</b> Renders static images (<code>@image:</code>) and animated GIFs (<code>@gif:</code>) straight from the local book directory, completely neutralizing the checkerboard placeholder texture glitch. Supports PNG, JPEG, BMP and GIF (first frame).</p>
+<p>▸ <b>Consolidated Multi-Block NBT Projection:</b> The 3D hologram projector (<code>PlacementProjector</code>) and the page renderer (<code>StructureRenderer</code>) compile <code>.nbt</code> blueprints directly from the config folder. Creators can bundle multi-block structures natively into their guides without external datapacks.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>🎬 Built-in Media System</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Video Playback:</b> Play local and remote video files (<code>mp4</code>, <code>avi</code>, <code>mkv</code>, <code>webm</code>) directly inside guide pages using the <code>@video:</code> command. Supports direct HTTP(S) links with automatic caching, and includes a custom player with <b>play/pause, stop, replay, volume slider, fullscreen, and a draggable progress bar</b> with seek support.</p>
+<p>▸ <b>GIF and Image URL Support:</b> Use direct HTTP(S) links in <code>@gif:</code> and <code>@image:</code> to load animated GIFs and static images (PNG, JPEG) from the internet. Files are cached in <code>config/guide/cache/media/</code> for offline reuse.</p>
+<p>▸ <b>Sound Integration:</b> Use the <code>@sound:</code> command to embed clickable sound buttons that play custom audio files from the book's <code>sounds/</code> folder. Supports per-page playback with automatic music ducking.</p>
+<p>▸ <b>Smart Background Music Ducking:</b> When a video or custom sound starts, the mod automatically pauses background music and restores it after playback ends.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>🎨 Themes &amp; Chapter Backgrounds</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Fully Themeable UI:</b> Every interface element — panels, borders, buttons, scrollbars, tables, media player, projector — is defined by a JSON theme file. Custom themes are placed in <code>config/guide/themes/</code> (client or server).</p>
+<p>▸ <b>Per-Book Overrides:</b> Set a <code>theme</code> field in <code>book.json</code> to force a specific theme for a book; the global theme is restored when the book is closed. Priority: book theme &gt; locked theme &gt; global theme.</p>
+<p>▸ <b>Chapter Backgrounds:</b> Themes can override the default chapter background with a <code>chapterBackground</code> block — a solid color (with adjustable alpha) or an image. Images can be a local file, a server-side file, or a direct URL (downloaded and cached automatically).</p>
+<p>▸ <b>Built-in Visual Effects:</b> Optional per-theme effects: <code>bloodEffects</code>, <code>forestEffects</code>, <code>cyberTechEffects</code>, <code>matrixEffects</code>, <code>sakuraEffects</code>, <code>honeyEffects</code>.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>🔗 Mod &amp; Quest Integration</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Live Server-Synced Checkboxes:</b> Features a client-to-server interactive quest system. Quest completions are bound to player <b>UUIDs</b> and securely saved inside the <b>server-side NBT</b> structure, protecting progression files from local data wipes.</p>
+<p>▸ <b>JEI Navigation Ready:</b> Bind chapters to specific item entries using <code>@bind:mod_id:item</code> to trigger matching guide pages directly inside JEI, or click guide item passposts to instantly pull up active recipe sheets.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Commands&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Commands section"/>
 
 <div align="center">
 
@@ -81,7 +151,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Supported%20Versions&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Supported%20Versions&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Supported Versions section"/>
 
 <div align="center">
 
@@ -92,7 +162,7 @@
 </thead>
 <tbody>
 <tr>
-<td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="34" height="34" alt="Forge"/></td>
+<td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="34" height="34" alt="Minecraft Forge logo"/></td>
 <td align="center" width="20%" style="width:20%;"><b>Forge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.20.1</kbd></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.7.0+</kbd></td>
@@ -101,7 +171,7 @@
 <td align="center" width="18%" style="width:18%;"><code>forge-1.20.1</code></td>
 </tr>
 <tr>
-<td align="center" width="10%" style="width:10%;"><img src="https://neoforged.net/img/authors/neoforged.png" width="34" height="34" alt="NeoForge"/></td>
+<td align="center" width="10%" style="width:10%;"><img src="https://neoforged.net/img/authors/neoforged.png" width="34" height="34" alt="NeoForge logo"/></td>
 <td align="center" width="20%" style="width:20%;"><b>NeoForge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.21.1</kbd></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.5.0+</kbd></td>
@@ -116,7 +186,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Integrations&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Integrations&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Integrations section"/>
 
 <div align="center">
 
@@ -131,7 +201,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Directory%20Structure&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Directory%20Structure&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Directory Structure section"/>
 
 <pre><code>config/guide/books/&lt;book_id&gt;/
 ├── chapters/           # Content sections
@@ -310,7 +380,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Reporting%20Issues&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Reporting%20Issues&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Reporting Issues section"/>
 
 <div align="center">
 
@@ -335,7 +405,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Credits&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Credits&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Credits section"/>
 
 <div align="center">
 
@@ -357,7 +427,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=License&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=License&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="License section"/>
 
 <div align="center">
 
@@ -371,7 +441,7 @@ Any modpack that uses Guide takes **full** responsibility for user support queri
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=120&amp;section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=120&amp;section=footer" width="100%" alt="Footer — Made with love for the Minecraft modding community by deaddiesel"/>
 
 **Made with ❤️ for the Minecraft modding community**
 
