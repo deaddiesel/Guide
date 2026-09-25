@@ -317,17 +317,17 @@
 <p>Found a bug or encountered a crash? Open a ticket on the <a href="https://github.com/deaddiesel/guide/issues">Issue Tracker</a>.</p>
 
 <table width="100%" cellpadding="14" style="width:100%;">
-<colgroup><col width="8%"/><col width="32%"/><col width="60%"/></colgroup>
+<colgroup><col width="40%"/><col width="60%"/></colgroup>
 <thead>
-<tr><th align="center" width="8%" style="width:8%;">✦</th><th align="center" width="32%" style="width:32%;">Info required</th><th align="center" width="60%" style="width:60%;">Example</th></tr>
+<tr><th align="center" width="40%" style="width:40%;">Info required</th><th align="center" width="60%" style="width:60%;">Example</th></tr>
 </thead>
 <tbody>
-<tr><td align="center" width="8%" style="width:8%;">🎮</td><td align="center" width="32%" style="width:32%;">Minecraft version</td><td align="center" width="60%" style="width:60%;"><code>1.20.1</code> · <code>1.21.1</code></td></tr>
-<tr><td align="center" width="8%" style="width:8%;">⚙️</td><td align="center" width="32%" style="width:32%;">Loader + version</td><td align="center" width="60%" style="width:60%;"><code>Forge 47.4.20+</code> · <code>NeoForge 21.1.0+</code></td></tr>
-<tr><td align="center" width="8%" style="width:8%;">📦</td><td align="center" width="32%" style="width:32%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.7.0</code> · <code>1.5.0-NeoForge</code></td></tr>
-<tr><td align="center" width="8%" style="width:8%;">🔗</td><td align="center" width="32%" style="width:32%;">Related mods</td><td align="center" width="60%" style="width:60%;">List of mods that may interact with Guide</td></tr>
-<tr><td align="center" width="8%" style="width:8%;">📸</td><td align="center" width="32%" style="width:32%;">Screenshots</td><td align="center" width="60%" style="width:60%;">Attach if the issue is layout-related</td></tr>
-<tr><td align="center" width="8%" style="width:8%;">💥</td><td align="center" width="32%" style="width:32%;">Crash report</td><td align="center" width="60%" style="width:60%;">Full <code>latest.log</code> or <code>crash-report</code> in a code block</td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Minecraft version</td><td align="center" width="60%" style="width:60%;"><code>1.20.1</code> · <code>1.21.1</code></td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Loader + version</td><td align="center" width="60%" style="width:60%;"><code>Forge 47.4.20+</code> · <code>NeoForge 21.1.0+</code></td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.7.0</code> · <code>1.5.0-NeoForge</code></td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Related mods</td><td align="center" width="60%" style="width:60%;">List of mods that may interact with Guide</td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Screenshots</td><td align="center" width="60%" style="width:60%;">Attach if the issue is layout-related</td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Crash report</td><td align="center" width="60%" style="width:60%;">Full <code>latest.log</code> or <code>crash-report</code> in a code block</td></tr>
 </tbody>
 </table>
 
@@ -345,9 +345,9 @@
 <tr><th align="center" width="10%" style="width:10%;">✦</th><th align="center" width="30%" style="width:30%;">🧩 <b>Project</b></th><th align="center" width="25%" style="width:25%;">👤 <b>Author / Team</b></th><th align="center" width="35%" style="width:35%;">⚡ <b>Contribution</b></th></tr>
 </thead>
 <tbody>
-<tr><td align="center" width="10%" style="width:10%;">📖</td><td align="center" width="30%" style="width:30%;"><b>Just Enough Items</b> <sub>(JEI)</sub></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/mezz"><kbd>mezz</kbd></a></td><td align="center" width="35%" style="width:35%;">In-game recipe integration</td></tr>
-<tr><td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="24" height="24" alt="Forge"/></td><td align="center" width="30%" style="width:30%;"><b>Minecraft Forge</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/LexManos"><kbd>LexManos</kbd></a> · <a href="https://github.com/cpw"><kbd>cpw</kbd></a></td><td align="center" width="35%" style="width:35%;">FML ecosystem · MCP tools</td></tr>
-<tr><td align="center" width="10%" style="width:10%;"><img src="https://neoforged.net/img/authors/neoforged.png" width="24" height="24" alt="NeoForge"/></td><td align="center" width="30%" style="width:30%;"><b>NeoForge</b></td><td align="center" width="25%" style="width:25%;"><kbd>NeoForge Team</kbd></td><td align="center" width="35%" style="width:35%;">Modern modding platform for 1.21.1</td></tr>
+<tr><td align="center" width="10%" style="width:10%;">🧩</td><td align="center" width="30%" style="width:30%;"><b>Just Enough Items</b> <sub>(JEI)</sub></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/mezz"><kbd>mezz</kbd></a></td><td align="center" width="35%" style="width:35%;">In-game recipe integration</td></tr>
+<tr><td align="center" width="10%" style="width:10%;">⚒️</td><td align="center" width="30%" style="width:30%;"><b>Minecraft Forge</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/LexManos"><kbd>LexManos</kbd></a> · <a href="https://github.com/cpw"><kbd>cpw</kbd></a></td><td align="center" width="35%" style="width:35%;">FML ecosystem · MCP tools</td></tr>
+<tr><td align="center" width="10%" style="width:10%;">🦊</td><td align="center" width="30%" style="width:30%;"><b>NeoForge</b></td><td align="center" width="25%" style="width:25%;"><kbd>NeoForge Team</kbd></td><td align="center" width="35%" style="width:35%;">Modern modding platform for 1.21.1</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🎬</td><td align="center" width="30%" style="width:30%;"><b>JavaCV</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/bytedeco"><kbd>bytedeco</kbd></a></td><td align="center" width="35%" style="width:35%;">Cross-platform Java wrapper for native media libraries</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🎬</td><td align="center" width="30%" style="width:30%;"><b>JavaCPP</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/bytedeco"><kbd>bytedeco</kbd></a></td><td align="center" width="35%" style="width:35%;">Native bindings &amp; prebuilt binaries for FFmpeg / OpenCV</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🎞️</td><td align="center" width="30%" style="width:30%;"><b>FFmpeg</b></td><td align="center" width="25%" style="width:25%;"><a href="https://ffmpeg.org/"><kbd>FFmpeg Team</kbd></a></td><td align="center" width="35%" style="width:35%;">Video decoding, transcoding &amp; stream handling</td></tr>
