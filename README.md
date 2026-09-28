@@ -264,6 +264,10 @@
     "editBoxBorderFocusedColor":    "0xFFFFFFFF",       // input field border on focus
     "editBoxTextColor":             "0xFFFFFF",         // input field text
 
+    // ===== Search Highlight (Ctrl+F) =====
+    "searchHighlightColor":         "0x80FFEB3B",       // all match highlights
+    "searchHighlightCurrentColor":  "0xC0FF9800",       // currently active match
+
     // ===== Media Player =====
     "mediaFrameOuterColor":         "0xFF2D2D2D",       // media outer frame
     "mediaFrameInnerColor":         "0xFF4A4A4A",       // media inner frame
