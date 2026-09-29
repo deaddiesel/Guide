@@ -47,7 +47,7 @@
 <tr>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing. Full command suite for listing and opening books.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>/guide list</kbd> <kbd>/guide open</kbd> <kbd>index</kbd> <kbd>hot-reload</kbd></sub></td>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>🧱 Multiblock Projection</h3>Preview and assemble complex structures step by step.<br/><br/><sub><kbd>layers</kbd> <kbd>rotation</kbd> <kbd>zoom</kbd> <kbd>progress HUD</kbd> <kbd>NBT</kbd></sub></td>
-<td valign="top" align="left" width="34%" style="width:34%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd> <kbd>search</kbd></sub></td>
+<td valign="top" align="left" width="34%" style="width:34%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd> <kbd>search</kbd> <kbd>fulltext</kbd></sub></td>
 </tr>
 <tr>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>🎬 Multimedia</h3>Video, GIF and image playback directly in the book.<br/><br/><sub><kbd>JavaCV</kbd> <kbd>FFmpeg</kbd> <kbd>GIF</kbd> <kbd>WebP</kbd> <kbd>URL</kbd> <kbd>fullscreen</kbd> <kbd>ducking</kbd> <kbd>cache</kbd></sub></td>
@@ -89,6 +89,7 @@
 <p>▸ <b>Overhauled Search Box:</b> Equipped with a clean vertical caret (<code>|</code>) that flawlessly executes movement sequences and text selections across both <b>English and Cyrillic</b> keyboard layouts.</p>
 <p>▸ <b>Smart Sidebar Sub-Menus:</b> Seamlessly nests dropdown sub-chapters (<code>@submenu:</code>) and spoilers behind clicks, optimizing render framerates and preventing layout clipping.</p>
 <p>▸ <b>Unbreakable Tracking &amp; History:</b> Navigation memory locks the expanded state of sidebar submenus, and text hyperlink hitboxes mathematically track lines perfectly under any dynamic scrollbar offset.</p>
+<p>▸ <b>Full-Text Search Overlay:</b> The sidebar search scans chapter content, not just titles. Typing a query opens an overlay with snippets around every match, grouped by chapter. Click a snippet to open the chapter, scroll to the matched line, and highlight the query in-place. The sidebar also keeps chapters that only match by content.</p>
 <p>▸ <b>In-Chapter Search (Ctrl+F):</b> A browser-style find panel opens at the bottom of the chapter area. Every match is highlighted (active one in a different color); jump between matches with <kbd>↑</kbd> / <kbd>↓</kbd> or <kbd>Enter</kbd> / <kbd>Shift+Enter</kbd>, with a live <code>N / M</code> counter. Spoilers containing a match auto-expand; spoilers without a match stay collapsed. Search highlight colors are themeable via <code>searchHighlightColor</code> and <code>searchHighlightCurrentColor</code>.</p>
 </td>
 </tr>
@@ -234,114 +235,128 @@
 
 <sub>▸ <code>index</code> is optional. Books are sorted by it in the selector (lower = earlier). Books without <code>index</code> fall to the end, sorted by namespace.</sub>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Themes&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Themes section"/>
+
+<div align="center">
+<p>Every UI element is themeable via JSON. Custom themes live in <code>config/guide/themes/</code> — copy the template below, tweak the colors, and save it as a new file (for example, <code>my_theme.json</code>).</p>
+<p>Two dedicated colors control both the Ctrl+F panel and the full-text overlay: <code>searchHighlightColor</code> (all matches) and <code>searchHighlightCurrentColor</code> (active match). Built-in palettes ship with tuned defaults per theme.</p>
+<p>Each theme can also define its own <b>chapter background</b> — a solid color or an image that replaces the default background for every chapter in books using this theme.</p>
+</div>
+
+<div align="left">
+
 <pre><code>📄 Example standard.json (config/guide/themes/standard.json):
 
 {
-  "id": "standard",                                     // unique theme identifier
-  "displayName": "guide.theme.standard",                // display name (plain string or translation key)
-  "chapterBackground": {                                // optional chapter background override
-    "type": "color",                                    // "color" or "image"
-    "value": "0x0A0A0A",                                // RGB color (0xRRGGBB) when type = "color"
-    "alpha": 230                                        // 0 = transparent, 255 = opaque
+  "id": "standard", // unique theme identifier
+  "displayName": "guide.theme.standard", // display name (plain string or translation key)
+  "chapterBackground": { // optional chapter background override
+    "type": "color", // "color" or "image"
+    "value": "0x0A0A0A", // RGB color (0xRRGGBB) when type = "color"
+    "alpha": 230 // 0 = transparent, 255 = opaque
   },
   "colors": {
 
     // ===== General UI =====
-    "panelBackgroundColor":         "0xCC1A1A1A",       // panels background (book pages, side menus)
-    "panelHeaderBackgroundColor":   "0xCC111111",       // panel header background
-    "borderColor":                  "0xFF4A4A4A",       // default border for panels and windows
-    "borderFocusedColor":           "0xFF00D0FF",       // focused element border
-    "textColor":                    "0xFFFFFF",         // primary text color
-    "textSecondaryColor":           "0x888888",         // secondary text
-    "scrollbarTrackColor":          "0x55111111",       // scrollbar track background
-    "scrollbarThumbColor":          "0xFF8B8B8B",       // scrollbar thumb
-    "buttonColor":                  "0xFF2A2A2A",       // default button
-    "buttonHoverColor":             "0xFF3A3A3A",       // button on hover
-    "buttonDisabledColor":          "0xFF1A1A1A",       // disabled button
+    "panelBackgroundColor": "0xCC1A1A1A", // panels background (book pages, side menus)
+    "panelHeaderBackgroundColor": "0xCC111111", // panel header background
+    "borderColor": "0xFF4A4A4A", // default border for panels and windows
+    "borderFocusedColor": "0xFF00D0FF", // focused element border
+    "textColor": "0xFFFFFF", // primary text color
+    "textSecondaryColor": "0x888888", // secondary text
+    "scrollbarTrackColor": "0x55111111", // scrollbar track background
+    "scrollbarThumbColor": "0xFF8B8B8B", // scrollbar thumb
+    "buttonColor": "0xFF2A2A2A", // default button
+    "buttonHoverColor": "0xFF3A3A3A", // button on hover
+    "buttonDisabledColor": "0xFF1A1A1A", // disabled button
 
     // ===== Input Fields =====
-    "editBoxBackgroundColor":       "0xFF000000",       // input field background
-    "editBoxBorderColor":           "0xFFA0A0A0",       // input field border
-    "editBoxBorderFocusedColor":    "0xFFFFFFFF",       // input field border on focus
-    "editBoxTextColor":             "0xFFFFFF",         // input field text
+    "editBoxBackgroundColor": "0xFF000000", // input field background
+    "editBoxBorderColor": "0xFFA0A0A0", // input field border
+    "editBoxBorderFocusedColor": "0xFFFFFFFF", // input field border on focus
+    "editBoxTextColor": "0xFFFFFF", // input field text
 
-    // ===== Search Highlight (Ctrl+F) =====
+    // ===== Search Highlight (Ctrl+F + Full-Text Overlay) =====
     "searchHighlightColor":         "0x80FFEB3B",       // all match highlights
     "searchHighlightCurrentColor":  "0xC0FF9800",       // currently active match
-
+  
     // ===== Media Player =====
-    "mediaFrameOuterColor":         "0xFF2D2D2D",       // media outer frame
-    "mediaFrameInnerColor":         "0xFF4A4A4A",       // media inner frame
-    "mediaBackgroundColor":         "0xFF000000",       // playback area background
-    "mediaControlPanelColor":       "0xCC000000",       // control panel background
-    "mediaTextColor":               "0xFFAAAAAA",       // media player text
-    "mediaErrorTextColor":          "0xFFFF5555",       // error text
-    "mediaTimeTextColor":           "0xFFCCCCCC",       // playback time text
-    "progressBarTrackColor":        "0xFF555555",       // progress bar track background
-    "progressBarFillColor":         "0xFF00D0FF",       // progress bar fill
-    "progressBarThumbColor":        "0xFFFFFFFF",       // progress bar thumb
-    "progressBarThumbOutlineColor": "0xFF000000",       // progress bar thumb outline
+    "mediaFrameOuterColor": "0xFF2D2D2D", // media outer frame
+    "mediaFrameInnerColor": "0xFF4A4A4A", // media inner frame
+    "mediaBackgroundColor": "0xFF000000", // playback area background
+    "mediaControlPanelColor": "0xCC000000", // control panel background
+    "mediaTextColor": "0xFFAAAAAA", // media player text
+    "mediaErrorTextColor": "0xFFFF5555", // error text
+    "mediaTimeTextColor": "0xFFCCCCCC", // playback time text
+    "progressBarTrackColor": "0xFF555555", // progress bar track background
+    "progressBarFillColor": "0xFF00D0FF", // progress bar fill
+    "progressBarThumbColor": "0xFFFFFFFF", // progress bar thumb
+    "progressBarThumbOutlineColor": "0xFF000000", // progress bar thumb outline
 
     // ===== Inline Elements =====
-    "spoilerTitleColor":            "0xFFAA00",         // spoiler title
-    "inlineItemBackgroundColor":    "0x550A0A0A",       // inline item background
-    "inlineItemBorderColor":        "0x25FFFFFF",       // inline item border
-    "inlineItemTextColor":          "0xFFAAAAAA",       // inline item text
-    "soundButtonBackgroundColor":   "0xFF2E2E2E",       // sound button background
-    "soundButtonBorderColor":       "0xFF5A5A5A",       // sound button border
-    "soundButtonTextColor":         "0xFFFFFF",         // sound button text
-    "questStrikethroughColor":      "0x77777777",       // strikethrough quest text
+    "spoilerTitleColor": "0xFFAA00", // spoiler title
+    "inlineItemBackgroundColor": "0x550A0A0A", // inline item background
+    "inlineItemBorderColor": "0x25FFFFFF", // inline item border
+    "inlineItemTextColor": "0xFFAAAAAA", // inline item text
+    "soundButtonBackgroundColor": "0xFF2E2E2E", // sound button background
+    "soundButtonBorderColor": "0xFF5A5A5A", // sound button border
+    "soundButtonTextColor": "0xFFFFFF", // sound button text
+    "questStrikethroughColor": "0x77777777", // strikethrough quest text
 
     // ===== Tables =====
-    "tableHeaderBackgroundColor":   "0xFF222222",       // table header background
-    "tableHeaderTextColor":         "0xFFAA00",         // table header text
-    "tableRowBackgroundColor":      "0x11000000",       // alternating row background
-    "tableBorderColor":             "0xFF3A3A3A",       // table borders
-    "tableCellTextColor":           "0xFFFFFF",         // table cell text
-    "dividerColor":                 "0xFF3A3A3A",       // block dividers
+    "tableHeaderBackgroundColor": "0xFF222222", // table header background
+    "tableHeaderTextColor": "0xFFAA00", // table header text
+    "tableRowBackgroundColor": "0x11000000", // alternating row background
+    "tableBorderColor": "0xFF3A3A3A", // table borders
+    "tableCellTextColor": "0xFFFFFF", // table cell text
+    "dividerColor": "0xFF3A3A3A", // block dividers
 
     // ===== Video Title =====
-    "videoTitleBackgroundColor":    "0xCC2D2D2D",       // video title panel background
-    "videoTitleBorderColor":        "0xFF5A5A5A",       // video title panel border
-    "videoTitleTextColor":          "0xFFFFFF",         // video title text
+    "videoTitleBackgroundColor": "0xCC2D2D2D", // video title panel background
+    "videoTitleBorderColor": "0xFF5A5A5A", // video title panel border
+    "videoTitleTextColor": "0xFFFFFF", // video title text
 
     // ===== Warnings & Toasts =====
-    "warningTextColor":             "0xFF5555",         // primary warning text
-    "warningTextSecondaryColor":    "0xFFAAAAAA",       // secondary warning text
-    "toastBackgroundColor":         "0xD0101215",       // toast notification background
-    "toastTextColor":               "0xFFFFFF",         // toast notification text
+    "warningTextColor": "0xFF5555", // primary warning text
+    "warningTextSecondaryColor": "0xFFAAAAAA", // secondary warning text
+    "toastBackgroundColor": "0xD0101215", // toast notification background
+    "toastTextColor": "0xFFFFFF", // toast notification text
 
     // ===== Structure Panel =====
-    "structureFrameColor":          "0x4000FFFF",       // 3D structure preview frame
-    "structureTabActiveBackgroundColor":   "0xFF555555", // active tab background
+    "structureFrameColor": "0x4000FFFF", // 3D structure preview frame
+    "structureTabActiveBackgroundColor": "0xFF555555", // active tab background
     "structureTabInactiveBackgroundColor": "0xFF222222", // inactive tab background
-    "structureTabActiveTextColor":         "0x00FFCC",   // active tab text
-    "structureTabInactiveTextColor":       "0x888888",   // inactive tab text
-    "structureLayerTextColor":             "0x55FF55",   // structure layer label
+    "structureTabActiveTextColor": "0x00FFCC", // active tab text
+    "structureTabInactiveTextColor": "0x888888", // inactive tab text
+    "structureLayerTextColor": "0x55FF55", // structure layer label
 
     // ===== Placement Projector =====
-    "projectorPanelBackgroundColor":       "0xD0101215", // projector panel background
-    "projectorPanelBorderColor":           "0x4000D0FF", // projector panel border
-    "projectorTitleTextColor":             "0x00D0FF",   // projector panel title
-    "projectorButtonBackgroundColor":      "0x15FFFFFF", // default button background
+    "projectorPanelBackgroundColor": "0xD0101215", // projector panel background
+    "projectorPanelBorderColor": "0x4000D0FF", // projector panel border
+    "projectorTitleTextColor": "0x00D0FF", // projector panel title
+    "projectorButtonBackgroundColor": "0x15FFFFFF", // default button background
     "projectorButtonHoverBackgroundColor": "0x3000D0FF", // button background on hover
-    "projectorButtonBorderColor":          "0x25FFFFFF", // default button border
-    "projectorButtonHoverBorderColor":     "0xFF00D0FF", // button border on hover
-    "projectorButtonTextColor":            "0xBBBBBB",   // button text
-    "projectorButtonHoverTextColor":       "0xFFFFFF",   // button text on hover
-    "projectorDoneButtonHoverBackgroundColor":   "0x3000FF55", // "Done" button background on hover
-    "projectorDoneButtonHoverBorderColor":       "0xFF00FF55", // "Done" button border on hover
+    "projectorButtonBorderColor": "0x25FFFFFF", // default button border
+    "projectorButtonHoverBorderColor": "0xFF00D0FF", // button border on hover
+    "projectorButtonTextColor": "0xBBBBBB", // button text
+    "projectorButtonHoverTextColor": "0xFFFFFF", // button text on hover
+    "projectorDoneButtonHoverBackgroundColor": "0x3000FF55", // "Done" button background on hover
+    "projectorDoneButtonHoverBorderColor": "0xFF00FF55", // "Done" button border on hover
     "projectorCancelButtonHoverBackgroundColor": "0x30FF2244", // "Cancel" button background on hover
-    "projectorCancelButtonHoverBorderColor":     "0xFFFF2244", // "Cancel" button border on hover
-    "projectorHudTextColor":               "0xFFFFFF"    // projector HUD hint text
+    "projectorCancelButtonHoverBorderColor": "0xFFFF2244", // "Cancel" button border on hover
+    "projectorHudTextColor": "0xFFFFFF" // projector HUD hint text
   }
 }</code></pre>
 
-<pre>🖼️ <strong><code>Chapter Background (optional)</code></strong></pre>
+</div>
 
-<p align="center">Add a <code>chapterBackground</code> block to your theme to override the default background (blur on NeoForge, gradient overlay on Forge). Three source types are supported:</p>
+<div align="left">
 
-<pre><code>// Solid color with alpha (0 = transparent, 255 = opaque)
+<pre><code>🖼️ Chapter Background (optional)
+
+Add a chapterBackground block to your theme to override the default background (blur on NeoForge, gradient overlay on Forge). Three source types are supported:
+
+// Solid color with alpha (0 = transparent, 255 = opaque)
 "chapterBackground": {
   "type": "color",
   "value": "0x1A0F2E",
@@ -362,7 +377,9 @@
 
 <sub>▸ Omit <code>chapterBackground</code> entirely to keep the default. URL images appear with a short delay on first load; subsequent openings use the cache. Supports PNG, JPEG, BMP and GIF (first frame).</sub>
 
-<p align="center"><b>🎨 Color format</b></p>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Color%20format&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Color format section"/>
 
 <div align="center">
 
