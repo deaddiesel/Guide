@@ -2,8 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=Guide&amp;fontSize=90&amp;fontAlignY=35&amp;desc=Interactive%20in-game%20guidebooks%20for%20Minecraft&amp;descAlignY=58&amp;descSize=18" width="100%" alt="Guide — Interactive in-game guidebooks for Minecraft"/>
 
-<p><b>🚧 In development</b> &mdash; the features below are part of an upcoming release.</p>
-
 <p align="center">
 <a href="https://github.com/deaddiesel/guide/releases"><img alt="GitHub release version badge" src="https://img.shields.io/github/v/release/deaddiesel/guide?style=for-the-badge&amp;label=Release&amp;color=2ea043&amp;logo=github&amp;logoColor=white"/></a>
 <a href="https://opensource.org/licenses/MIT"><img alt="MIT License badge" src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=white"/></a>
@@ -45,7 +43,7 @@
 <colgroup><col width="33%"/><col width="33%"/><col width="34%"/></colgroup>
 <tbody>
 <tr>
-<td valign="top" align="left" width="33%" style="width:33%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing. Full command suite for listing and opening books.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>/guide list</kbd> <kbd>/guide open</kbd> <kbd>index</kbd> <kbd>hot-reload</kbd></sub></td>
+<td valign="top" align="left" width="33%" style="width:33%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing. Full command suite for listing and opening books.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>/guide list</kbd> <kbd>/guide open</kbd> <kbd>unlock_tag</kbd> <kbd>index</kbd> <kbd>hot-reload</kbd></sub></td>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>🧱 Multiblock Projection</h3>Preview and assemble complex structures step by step.<br/><br/><sub><kbd>layers</kbd> <kbd>rotation</kbd> <kbd>zoom</kbd> <kbd>progress HUD</kbd> <kbd>NBT</kbd></sub></td>
 <td valign="top" align="left" width="34%" style="width:34%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd> <kbd>search</kbd> <kbd>fulltext</kbd></sub></td>
 </tr>
@@ -66,6 +64,14 @@
 <table width="100%" cellpadding="16" style="width:100%;">
 <colgroup><col width="22%"/><col width="78%"/></colgroup>
 <tbody>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>🔒 Book Gating</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Per-Player Unlock Tags:</b> Add <code>unlock_tag</code> to any <code>book.json</code> and the book stays hidden in the selector until the player holds the matching tag. Perfect for tutorial books, endgame manuals, or story-gated content.</p>
+<p>▸ <b>Command-Driven:</b> <code>/guide unlock &lt;tag&gt;</code> and <code>/guide lock &lt;tag&gt;</code> grant or revoke tags; both accept an optional player argument (OP level 2) for admins. <code>/guide unlocks</code> lists your active tags.</p>
+<p>▸ <b>Modpack-Friendly:</b> Any system that can dispatch a command works — KubeJS events, FTB Quests rewards, advancements, or custom script packs. State is stored per-player in server-side NBT and synced on login and after every change.</p>
+</td>
+</tr>
 <tr>
 <th valign="top" align="left" width="22%" style="width:22%;"><h3>📚 Multi-Book Config Autonomy</h3></th>
 <td valign="top" align="left" width="78%" style="width:78%;">
@@ -146,10 +152,13 @@
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide list</kbd></td><td align="center" width="70%" style="width:70%;">List all books visible to the client. Click a line to insert <kbd>/guide open &lt;namespace&gt;</kbd> into chat; hover for details</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide list server</kbd></td><td align="center" width="70%" style="width:70%;">List books the server is currently distributing. Shows index, namespace, dev marker and disk path in hover</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide open &lt;namespace&gt;</kbd></td><td align="center" width="70%" style="width:70%;">Open a specific book by namespace from chat. Supports tab-completion</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide unlock &lt;tag&gt;</kbd> <kbd>[player]</kbd></td><td align="center" width="70%" style="width:70%;">Grant an unlock tag to yourself or another player (OP 2 for other players)</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide lock &lt;tag&gt;</kbd> <kbd>[player]</kbd></td><td align="center" width="70%" style="width:70%;">Revoke an unlock tag from yourself or another player (OP 2 for other players)</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide unlocks</kbd></td><td align="center" width="70%" style="width:70%;">List all unlock tags currently held by you</td></tr>
 </tbody>
 </table>
 
-<sub>▸ All commands are available to all players by default — no OP or cheat requirements.</sub>
+<sub>▸ All commands are available to all players by default — no OP or cheat requirements. Granting or revoking another player's tag requires OP level 2.</sub>
 
 </div>
 
@@ -184,7 +193,7 @@
 </tbody>
 </table>
 
-<sub>▸ Both branches share the same feature set — multimedia, Markdown rendering, and multiblock projection are on par.</sub>
+<sub>▸ Both branches share the same feature set — multimedia, Markdown rendering, multiblock projection and book gating are on par.</sub>
 
 </div>
 
@@ -198,6 +207,7 @@
 <tr><td align="center" width="22%" style="width:22%;">🧩 <b>JEI</b></td><td align="center" width="78%" style="width:78%;">Bind chapters to items with <code>@bind:mod_id:item</code>. Click guide item passposts to instantly open recipes.</td></tr>
 <tr><td align="center" width="22%" style="width:22%;">🎬 <b>FFmpeg / JavaCV / JavaCPP</b></td><td align="center" width="78%" style="width:78%;">Video decoding, transcoding, and frame-level media access through native <b>FFmpeg</b> binaries, wrapped by <b>JavaCV</b> and bundled via <b>JavaCPP</b> for Windows, macOS, and Linux.</td></tr>
 <tr><td align="center" width="22%" style="width:22%;">💾 <b>Media Cache</b></td><td align="center" width="78%" style="width:78%;">Automatic background music ducking during video / sound playback, plus offline media caching.</td></tr>
+<tr><td align="center" width="22%" style="width:22%;">🔒 <b>KubeJS / FTB Quests / Advancements</b></td><td align="center" width="78%" style="width:78%;">Book gating hooks into anything that can dispatch a command. Grant tags with <code>/guide unlock &lt;tag&gt;</code> from KubeJS events, FTB Quests rewards, advancement functions, or script packs.</td></tr>
 </tbody>
 </table>
 
@@ -230,10 +240,13 @@
   "bg_music": "background_music",
   "theme": "&lt;theme_id&gt;",
   "dev_only": false,
-  "index": 0
+  "index": 0,
+  "unlock_tag": ""
 }</code></pre>
 
 <sub>▸ <code>index</code> is optional. Books are sorted by it in the selector (lower = earlier). Books without <code>index</code> fall to the end, sorted by namespace.</sub>
+
+<sub>▸ <code>unlock_tag</code> is optional. Leave it empty to keep the book public; set a tag (e.g. <code>"secret"</code>) to hide the book until the player receives that tag via <code>/guide unlock secret</code>. Tags are per-player and persist across sessions.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Themes&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Themes section"/>
 
