@@ -47,7 +47,7 @@
 <tr>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing. Full command suite for listing and opening books.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>/guide list</kbd> <kbd>/guide open</kbd> <kbd>index</kbd> <kbd>hot-reload</kbd></sub></td>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>🧱 Multiblock Projection</h3>Preview and assemble complex structures step by step.<br/><br/><sub><kbd>layers</kbd> <kbd>rotation</kbd> <kbd>zoom</kbd> <kbd>progress HUD</kbd> <kbd>NBT</kbd></sub></td>
-<td valign="top" align="left" width="34%" style="width:34%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd></sub></td>
+<td valign="top" align="left" width="34%" style="width:34%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd> <kbd>search</kbd></sub></td>
 </tr>
 <tr>
 <td valign="top" align="left" width="33%" style="width:33%;"><h3>🎬 Multimedia</h3>Video, GIF and image playback directly in the book.<br/><br/><sub><kbd>JavaCV</kbd> <kbd>FFmpeg</kbd> <kbd>GIF</kbd> <kbd>WebP</kbd> <kbd>URL</kbd> <kbd>fullscreen</kbd> <kbd>ducking</kbd> <kbd>cache</kbd></sub></td>
@@ -89,6 +89,7 @@
 <p>▸ <b>Overhauled Search Box:</b> Equipped with a clean vertical caret (<code>|</code>) that flawlessly executes movement sequences and text selections across both <b>English and Cyrillic</b> keyboard layouts.</p>
 <p>▸ <b>Smart Sidebar Sub-Menus:</b> Seamlessly nests dropdown sub-chapters (<code>@submenu:</code>) and spoilers behind clicks, optimizing render framerates and preventing layout clipping.</p>
 <p>▸ <b>Unbreakable Tracking &amp; History:</b> Navigation memory locks the expanded state of sidebar submenus, and text hyperlink hitboxes mathematically track lines perfectly under any dynamic scrollbar offset.</p>
+<p>▸ <b>In-Chapter Search (Ctrl+F):</b> A browser-style find panel opens at the bottom of the chapter area. Every match is highlighted (active one in a different color); jump between matches with <kbd>↑</kbd> / <kbd>↓</kbd> or <kbd>Enter</kbd> / <kbd>Shift+Enter</kbd>, with a live <code>N / M</code> counter. Spoilers containing a match auto-expand; spoilers without a match stay collapsed. Search highlight colors are themeable via <code>searchHighlightColor</code> and <code>searchHighlightCurrentColor</code>.</p>
 </td>
 </tr>
 <tr>
