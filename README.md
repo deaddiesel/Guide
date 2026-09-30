@@ -176,7 +176,7 @@
 <td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="34" height="34" alt="Minecraft Forge logo"/></td>
 <td align="center" width="20%" style="width:20%;"><b>Forge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.20.1</kbd></td>
-<td align="center" width="14%" style="width:14%;"><kbd>1.7.0+</kbd></td>
+<td align="center" width="14%" style="width:14%;"><kbd>1.7.1+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>17</kbd></td>
 <td align="center" width="14%" style="width:14%;">🟢 <b>Stable</b></td>
 <td align="center" width="18%" style="width:18%;"><code>forge-1.20.1</code></td>
@@ -185,7 +185,7 @@
 <td align="center" width="10%" style="width:10%;"><img src="https://neoforged.net/img/authors/neoforged.png" width="34" height="34" alt="NeoForge logo"/></td>
 <td align="center" width="20%" style="width:20%;"><b>NeoForge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.21.1</kbd></td>
-<td align="center" width="14%" style="width:14%;"><kbd>1.5.0+</kbd></td>
+<td align="center" width="14%" style="width:14%;"><kbd>1.5.1+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>21</kbd></td>
 <td align="center" width="14%" style="width:14%;">🟢 <b>Stable</b></td>
 <td align="center" width="18%" style="width:18%;"><code>neoforge-1.21.1</code></td>
@@ -450,7 +450,7 @@ Add a chapterBackground block to your theme to override the default background (
 <tbody>
 <tr><td align="center" width="40%" style="width:40%;">Minecraft version</td><td align="center" width="60%" style="width:60%;"><code>1.20.1</code> · <code>1.21.1</code></td></tr>
 <tr><td align="center" width="40%" style="width:40%;">Loader + version</td><td align="center" width="60%" style="width:60%;"><code>Forge 47.4.20+</code> · <code>NeoForge 21.1.0+</code></td></tr>
-<tr><td align="center" width="40%" style="width:40%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.7.0</code> · <code>1.5.0-NeoForge</code></td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.7.1</code> · <code>1.5.1-NeoForge</code></td></tr>
 <tr><td align="center" width="40%" style="width:40%;">Related mods</td><td align="center" width="60%" style="width:60%;">List of mods that may interact with Guide</td></tr>
 <tr><td align="center" width="40%" style="width:40%;">Screenshots</td><td align="center" width="60%" style="width:60%;">Attach if the issue is layout-related</td></tr>
 <tr><td align="center" width="40%" style="width:40%;">Crash report</td><td align="center" width="60%" style="width:60%;">Full <code>latest.log</code> or <code>crash-report</code> in a code block</td></tr>
