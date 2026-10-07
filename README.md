@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=220&amp;section=header&amp;text=Guide&amp;fontSize=90&amp;fontAlignY=35&amp;desc=Interactive%20in-game%20guidebooks%20for%20Minecraft&amp;descAlignY=58&amp;descSize=18" width="100%" alt="Guide — Interactive in-game guidebooks for Minecraft"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Guide&fontSize=90&fontAlignY=35&desc=Interactive%20in-game%20guidebooks%20for%20Minecraft&descAlignY=58&descSize=18" width="100%" alt="Guide — Interactive in-game guidebooks for Minecraft"/>
 
 <p align="center">
-<a href="https://github.com/deaddiesel/guide/releases"><img alt="GitHub release version badge" src="https://img.shields.io/github/v/release/deaddiesel/guide?style=for-the-badge&amp;label=Release&amp;color=2ea043&amp;logo=github&amp;logoColor=white"/></a>
-<a href="https://opensource.org/licenses/MIT"><img alt="MIT License badge" src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=white"/></a>
-<a href="https://github.com/deaddiesel/guide/issues"><img alt="GitHub open issues badge" src="https://img.shields.io/github/issues/deaddiesel/guide?style=for-the-badge&amp;color=ff7b72&amp;logo=github&amp;logoColor=white"/></a>
-<a href="https://github.com/deaddiesel/guide/stargazers"><img alt="GitHub stars badge" src="https://img.shields.io/github/stars/deaddiesel/guide?style=for-the-badge&amp;color=ffd33d&amp;logo=github&amp;logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide/releases"><img alt="GitHub release version badge" src="https://img.shields.io/github/v/release/deaddiesel/guide?style=for-the-badge&label=Release&color=2ea043&logo=github&logoColor=white"/></a>
+<a href="https://opensource.org/licenses/MIT"><img alt="MIT License badge" src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide/issues"><img alt="GitHub open issues badge" src="https://img.shields.io/github/issues/deaddiesel/guide?style=for-the-badge&color=ff7b72&logo=github&logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide/stargazers"><img alt="GitHub stars badge" src="https://img.shields.io/github/stars/deaddiesel/guide?style=for-the-badge&color=ffd33d&logo=github&logoColor=white"/></a>
 </p>
 
 <p align="center">
 <a href="https://files.minecraftforge.net/"><img alt="Minecraft Forge 1.20.1 badge" src="https://img.shields.io/badge/Forge-1.20.1-orange?style=for-the-badge"/></a>
 <a href="https://neoforged.net/"><img alt="NeoForge 1.21.1 badge" src="https://img.shields.io/badge/NeoForge-1.21.1-blue?style=for-the-badge"/></a>
-<a href="https://adoptium.net/"><img alt="Java 17 and 21 badge" src="https://img.shields.io/badge/Java-17%20%7C%2021-ea2845?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white"/></a>
-<a href="https://gradle.org/"><img alt="Gradle build badge" src="https://img.shields.io/badge/Gradle-Build-02303A?style=for-the-badge&amp;logo=gradle&amp;logoColor=white"/></a>
+<a href="https://adoptium.net/"><img alt="Java 17 and 21 badge" src="https://img.shields.io/badge/Java-17%20%7C%2021-ea2845?style=for-the-badge&logo=openjdk&logoColor=white"/></a>
+<a href="https://gradle.org/"><img alt="Gradle build badge" src="https://img.shields.io/badge/Gradle-Build-02303A?style=for-the-badge&logo=gradle&logoColor=white"/></a>
 </p>
 
 <br/>
@@ -27,37 +27,45 @@
 <br/>
 
 <p align="center">
-<a href="https://www.curseforge.com/minecraft/mc-mods/guide"><img alt="Download on CurseForge" src="https://img.shields.io/badge/CurseForge-Download-F16436?style=for-the-badge&amp;logo=curseforge&amp;logoColor=white"/></a>
-<a href="https://modrinth.com/mod/guide-mod"><img alt="Download on Modrinth" src="https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&amp;logo=modrinth&amp;logoColor=white"/></a>
-<a href="https://github.com/deaddiesel/guide"><img alt="View source on GitHub" src="https://img.shields.io/badge/GitHub-Source-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"/></a>
-<a href="https://discord.gg/GuRnzfp8f9"><img alt="Join the Discord server" src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white"/></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/guide"><img alt="Download on CurseForge" src="https://img.shields.io/badge/CurseForge-Download-F16436?style=for-the-badge&logo=curseforge&logoColor=white"/></a>
+<a href="https://modrinth.com/mod/guide-mod"><img alt="Download on Modrinth" src="https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white"/></a>
+<a href="https://github.com/deaddiesel/guide"><img alt="View source on GitHub" src="https://img.shields.io/badge/GitHub-Source-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://discord.gg/GuRnzfp8f9"><img alt="Join the Discord server" src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
 </p>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Features&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Features section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Features&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Features section"/>
 
 <div align="center">
 
 <table width="100%" cellpadding="16" style="width:100%;">
-<colgroup><col width="33%"/><col width="33%"/><col width="34%"/></colgroup>
+<colgroup><col width="25%"/><col width="25%"/><col width="25%"/><col width="25%"/></colgroup>
 <tbody>
 <tr>
-<td valign="top" align="left" width="33%" style="width:33%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing. Full command suite for listing and opening books.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>/guide list</kbd> <kbd>/guide open</kbd> <kbd>unlock_tag</kbd> <kbd>index</kbd> <kbd>hot-reload</kbd></sub></td>
-<td valign="top" align="left" width="33%" style="width:33%;"><h3>🧱 Multiblock Projection</h3>Preview and assemble complex structures step by step.<br/><br/><sub><kbd>layers</kbd> <kbd>rotation</kbd> <kbd>zoom</kbd> <kbd>progress HUD</kbd> <kbd>NBT</kbd></sub></td>
-<td valign="top" align="left" width="34%" style="width:34%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd> <kbd>search</kbd> <kbd>fulltext</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>📚 Interactive Books</h3>Direct-from-disk compilation. Multi-book namespaces, zero JAR packing. Full command suite for listing and opening books.<br/><br/><sub><kbd>sidebar</kbd> <kbd>search</kbd> <kbd>/guide list</kbd> <kbd>/guide open</kbd> <kbd>unlock_tag</kbd> <kbd>index</kbd> <kbd>hot-reload</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🧱 Multiblock Projection</h3>Preview and assemble complex structures step by step.<br/><br/><sub><kbd>layers</kbd> <kbd>rotation</kbd> <kbd>zoom</kbd> <kbd>progress HUD</kbd> <kbd>NBT</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>📝 Markdown Engine</h3>Full Markdown rendered live inside the GUI.<br/><br/><sub><kbd>tables</kbd> <kbd>links</kbd> <kbd>spoilers</kbd> <kbd>items</kbd> <kbd>mobs</kbd> <kbd>sounds</kbd> <kbd>indentation</kbd> <kbd>search</kbd> <kbd>fulltext</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🎬 Multimedia</h3>Video, GIF and image playback directly in the book.<br/><br/><sub><kbd>JavaCV</kbd> <kbd>FFmpeg</kbd> <kbd>GIF</kbd> <kbd>WebP</kbd> <kbd>URL</kbd> <kbd>fullscreen</kbd> <kbd>ducking</kbd> <kbd>cache</kbd></sub></td>
 </tr>
 <tr>
-<td valign="top" align="left" width="33%" style="width:33%;"><h3>🎬 Multimedia</h3>Video, GIF and image playback directly in the book.<br/><br/><sub><kbd>JavaCV</kbd> <kbd>FFmpeg</kbd> <kbd>GIF</kbd> <kbd>WebP</kbd> <kbd>URL</kbd> <kbd>fullscreen</kbd> <kbd>ducking</kbd> <kbd>cache</kbd></sub></td>
-<td valign="top" align="left" width="33%" style="width:33%;"><h3>🎨 Themes &amp; Backgrounds</h3>Every UI element is themeable via JSON, including chapter backgrounds.<br/><br/><sub><kbd>per-book</kbd> <kbd>colors</kbd> <kbd>chapterBackground</kbd> <kbd>color</kbd> <kbd>image</kbd> <kbd>URL</kbd> <kbd>effects</kbd> <kbd>lock</kbd></sub></td>
-<td valign="top" align="left" width="34%" style="width:34%;"><h3>🖼️ Universal Images</h3>PNG, JPEG, BMP and GIF supported everywhere — icons, backgrounds, media.<br/><br/><sub><kbd>PNG</kbd> <kbd>JPEG</kbd> <kbd>BMP</kbd> <kbd>GIF</kbd> <kbd>local</kbd> <kbd>server</kbd> <kbd>URL</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>📔 Explorer's Journal</h3>A personal notebook stored in the player's NBT. Notes, live Markdown preview, checklists, tables and spoilers.<br/><br/><sub><kbd>notes</kbd> <kbd>editor</kbd> <kbd>preview</kbd> <kbd>checklists</kbd> <kbd>markdown</kbd> <kbd>NBT</kbd> <kbd>sync</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🔭 Guide Scanner</h3>Right-click a block, mob, dropped item or fluid to jump straight to the matching chapter.<br/><br/><sub><kbd>blocks</kbd> <kbd>mobs</kbd> <kbd>items</kbd> <kbd>fluids</kbd> <kbd>@bind:</kbd> <kbd>@bind_tag:</kbd> <kbd>choice screen</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>⌨️ Guide Keybinds</h3>Configurable hotkeys to open the book or the journal without touching the inventory.<br/><br/><sub><kbd>B</kbd> <kbd>N</kbd> <kbd>rebindable</kbd> <kbd>inventory-aware</kbd> <kbd>Curios-aware</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🎨 Themes &amp; Backgrounds</h3>Every UI element is themeable via JSON, including chapter backgrounds.<br/><br/><sub><kbd>per-book</kbd> <kbd>colors</kbd> <kbd>chapterBackground</kbd> <kbd>color</kbd> <kbd>image</kbd> <kbd>URL</kbd> <kbd>effects</kbd> <kbd>lock</kbd></sub></td>
+</tr>
+<tr>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🖼️ Universal Images</h3>PNG, JPEG, BMP and GIF supported everywhere — icons, backgrounds, media.<br/><br/><sub><kbd>PNG</kbd> <kbd>JPEG</kbd> <kbd>BMP</kbd> <kbd>GIF</kbd> <kbd>local</kbd> <kbd>server</kbd> <kbd>URL</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🎒 Curios Integration</h3>Optional. When Curios is installed, the book and journal can sit in the belt slot and appear on your model.<br/><br/><sub><kbd>belt</kbd> <kbd>render</kbd> <kbd>optional</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🧩 Mod &amp; Quest Hooks</h3>JEI bindings, in-book checkboxes, server-synced progress.<br/><br/><sub><kbd>@bind:</kbd> <kbd>@bind_tag:</kbd> <kbd>quests</kbd> <kbd>UUID</kbd> <kbd>NBT</kbd></sub></td>
+<td valign="top" align="left" width="25%" style="width:25%;"><h3>🔒 Book Gating</h3>Hide books until a per-player unlock tag is granted by any command source.<br/><br/><sub><kbd>unlock_tag</kbd> <kbd>KubeJS</kbd> <kbd>FTB Quests</kbd> <kbd>advancements</kbd></sub></td>
 </tr>
 </tbody>
 </table>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Feature%20Deep%20Dive&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Feature Deep Dive section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Feature%20Deep%20Dive&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Feature Deep Dive section"/>
 
 <div align="center">
 
@@ -68,8 +76,34 @@
 <th valign="top" align="left" width="22%" style="width:22%;"><h3>🔒 Book Gating</h3></th>
 <td valign="top" align="left" width="78%" style="width:78%;">
 <p>▸ <b>Per-Player Unlock Tags:</b> Add <code>unlock_tag</code> to any <code>book.json</code> and the book stays hidden in the selector until the player holds the matching tag. Perfect for tutorial books, endgame manuals, or story-gated content.</p>
-<p>▸ <b>Command-Driven:</b> <code>/guide unlock &lt;tag&gt;</code> and <code>/guide lock &lt;tag&gt;</code> grant or revoke tags; both accept an optional player argument (OP level 2) for admins. <code>/guide unlocks</code> lists your active tags.</p>
+<p>▸ <b>Command-Driven:</b> <code>/guide unlock &lt;tag&gt;</code> and <code>/guide lock &lt;tag&gt;</code> grant or revoke tags; both accept an optional player argument (OP level 2) for admins. <code>/guide unlocks</code> lists your active tags, <code>/guide unlocks clear</code> wipes them all at once.</p>
 <p>▸ <b>Modpack-Friendly:</b> Any system that can dispatch a command works — KubeJS events, FTB Quests rewards, advancements, or custom script packs. State is stored per-player in server-side NBT and synced on login and after every change.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>📔 Explorer's Journal</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Personal Notebook:</b> The <code>guide_diary</code> item opens a private list of notes stored in the player's NBT. Every note holds a title, a body, a creation / update timestamp, and the coordinates + dimension where it was created. Notes survive relogs, dimension changes and client reinstalls; other players never see them, even on a server.</p>
+<p>▸ <b>Editor &amp; Live Preview:</b> The editor is a true multiline text box with cursor navigation, clipboard support (Ctrl+A/C/V/X) and a themed scrollbar you can drag. The preview renders the note the same way the book does — colors, styles, links, tables, dividers, spoilers and checklists — and refreshes with a 200&nbsp;ms debounce while you type.</p>
+<p>▸ <b>Interactive Checklists:</b> Markdown-style checkboxes (<code>- [ ]</code> / <code>- [x]</code>) toggle on left-click inside the preview. State is stored inside the note itself and saved on every click. Completed tasks show a green checkmark and a strikethrough; task color is set with an <code>&amp;</code>-code prefix before the checkbox (<code>&amp;e- [ ]</code>, <code>&amp;c- [ ]</code>).</p>
+<p>▸ <b>Journal Markdown Support:</b> <code>&amp;0</code>–<code>&amp;f</code> colors, <code>&amp;l</code>/<code>&amp;o</code>/<code>&amp;n</code>/<code>&amp;m</code> styles, <code>&amp;r</code> reset, external links <code>[text](https://…)</code>, dividers (<code>---</code>, <code>&amp;6---</code>, <code>&amp;l&amp;9---</code>), tables with wrap and drag-scroll, spoilers (<code>@spoiler:</code> / <code>@endspoiler</code>), and checklists. The editor converts <code>&amp;x</code> into <code>§x</code> on the fly, so authors never type the section sign directly.</p>
+<p>▸ <b>Network Sync:</b> Two payloads keep the journal in sync — a sync payload (server → client, sent on login) and an update payload (client → server, sent on create / update / delete). Last-write-wins conflict resolution, no confirmation roundtrip.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>🔭 Guide Scanner</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>One-Click Lookup:</b> The <code>guide_scanner</code> item resolves the registry ID of a block, mob, dropped item or fluid and looks it up in the same binding map used by JEI and the <kbd>G</kbd>-key shortcut (<code>@bind:</code> / <code>@bind_tag:</code>). A single match opens the chapter instantly; multiple matches open a themed selection screen with a collapsible tree — one book expanded at a time, chapters nested underneath, chapter icons shown.</p>
+<p>▸ <b>Entity Raycast:</b> Uses a custom AABB-clip raycast so small dropped items and thin hitboxes are detected correctly — vanilla projectile raycast misses them.</p>
+<p>▸ <b>Fluid Fallback:</b> Scans water and lava by fluid ID first, then falls back to the bucket ID (<code>water_bucket</code> / <code>lava_bucket</code>) if no binding is found for the fluid itself.</p>
+<p>▸ <b>Cumulative Index:</b> The scanner reads from <code>itemToChapterRefMap</code>, a second index that survives book reloads and covers every visible book — no need to open a book first.</p>
+</td>
+</tr>
+<tr>
+<th valign="top" align="left" width="22%" style="width:22%;"><h3>⌨️ Guide Keybinds</h3></th>
+<td valign="top" align="left" width="78%" style="width:78%;">
+<p>▸ <b>Two Hotkeys:</b> <kbd>B</kbd> opens the book selector and <kbd>N</kbd> opens the journal. Both are bound to the <code>Guide</code> category and can be rebound at any time in <em>Options → Controls → Guide</em>.</p>
+<p>▸ <b>Inventory-Aware:</b> Each key only fires if the matching item (<code>guide_book</code> or <code>guide_diary</code>) is in your main inventory, off-hand, or a Curios slot. No item, no action — this prevents bypassing the book gating system with a hotkey.</p>
 </td>
 </tr>
 <tr>
@@ -83,9 +117,10 @@
 <tr>
 <th valign="top" align="left" width="22%" style="width:22%;"><h3>⚙️ Hot-Reload &amp; Dev-Friendly Pipeline</h3></th>
 <td valign="top" align="left" width="78%" style="width:78%;">
-<p>▸ <b>Runtime Layout Swapping (<code>/guide reload</code>):</b> Edit markdown files, layout nodes, textures, or JSON localization tables on your disk and instantly re-populate the guidebook memory in-game. Available to all players by default with <b>no OP/cheat requirements</b>.</p>
+<p>▸ <b>Runtime Layout Swapping (<code>/guide reload</code>):</b> Edit markdown files, layout nodes, textures, or JSON localization tables on your disk and instantly re-populate the guidebook memory in-game.</p>
 <p>▸ <b>Quick-Access Chat Navigation (<code>/guide</code>):</b> A dedicated chat handle that routes users directly to the main book catalog viewport from anywhere, removing item dependencies.</p>
 <p>▸ <b>Book Listing &amp; Direct Open:</b> <code>/guide list</code> prints all books visible to the client (with index, namespace, dev flag and display name); <code>/guide list server</code> shows what the server is distributing; <code>/guide open &lt;namespace&gt;</code> opens any book by ID with tab-completion.</p>
+<p>▸ <b>Item Shortcuts:</b> <code>/guide give &lt;book|scanner|diary&gt; [player]</code> spawns the matching Guide item directly into the inventory, falling back to <code>player.drop()</code> when the inventory is full. Includes a 1-second per-player cooldown and tab-completion for aliases and players.</p>
 <p>▸ <b>Developer Mode Toggle:</b> Hide instructional manuals or blueprints from players via <code>config/guide/guide-client.toml</code> while keeping them active for developers.</p>
 </td>
 </tr>
@@ -104,6 +139,7 @@
 <td valign="top" align="left" width="78%" style="width:78%;">
 <p>▸ <b>Natural Text Indentation Support:</b> The Markdown engine fully respects space and tab blocks at the start of text sequences, allowing for structured nested lists without desyncing hyperlink areas.</p>
 <p>▸ <b>Direct Media Streaming:</b> Renders static images (<code>@image:</code>) and animated GIFs (<code>@gif:</code>) straight from the local book directory, completely neutralizing the checkerboard placeholder texture glitch. Supports PNG, JPEG, BMP and GIF (first frame).</p>
+<p>▸ <b>3D Item &amp; Block Models (<code>@item:</code>):</b> Render rotating 3D item and block models inline in the page. Size is per-instance (16–128 px), alignment is configurable (left / center / right), and both flat items and full blocks respect the declared size. Hover for a tooltip with the registry ID and mod name.</p>
 <p>▸ <b>Consolidated Multi-Block NBT Projection:</b> The 3D hologram projector (<code>PlacementProjector</code>) and the page renderer (<code>StructureRenderer</code>) compile <code>.nbt</code> blueprints directly from the config folder. Creators can bundle multi-block structures natively into their guides without external datapacks.</p>
 </td>
 </tr>
@@ -114,6 +150,7 @@
 <p>▸ <b>GIF and Image URL Support:</b> Use direct HTTP(S) links in <code>@gif:</code> and <code>@image:</code> to load animated GIFs and static images (PNG, JPEG) from the internet. Files are cached in <code>config/guide/cache/media/</code> for offline reuse.</p>
 <p>▸ <b>Sound Integration:</b> Use the <code>@sound:</code> command to embed clickable sound buttons that play custom audio files from the book's <code>sounds/</code> folder. Supports per-page playback with automatic music ducking.</p>
 <p>▸ <b>Smart Background Music Ducking:</b> When a video or custom sound starts, the mod automatically pauses background music and restores it after playback ends.</p>
+<p>▸ <b>Client-Only Safety:</b> All media decoders, the FFmpeg native library downloader, the JavaCV bridge, and the texture uploader are annotated <code>@OnlyIn(Dist.CLIENT)</code>. Dedicated servers never download FFmpeg binaries and never touch client-only video code.</p>
 </td>
 </tr>
 <tr>
@@ -130,6 +167,7 @@
 <td valign="top" align="left" width="78%" style="width:78%;">
 <p>▸ <b>Live Server-Synced Checkboxes:</b> Features a client-to-server interactive quest system. Quest completions are bound to player <b>UUIDs</b> and securely saved inside the <b>server-side NBT</b> structure, protecting progression files from local data wipes.</p>
 <p>▸ <b>JEI Navigation Ready:</b> Bind chapters to specific item entries using <code>@bind:mod_id:item</code> to trigger matching guide pages directly inside JEI, or click guide item passposts to instantly pull up active recipe sheets.</p>
+<p>▸ <b>Curios Belt Slot:</b> The book and journal declare compatibility with the Curios <code>belt</code> slot through a data-driven tag. When Curios is installed, the equipped item is rendered on the player's model, and the <kbd>B</kbd> / <kbd>N</kbd> keybinds pick it up from there as if it were in the inventory. Curios is a soft dependency — the mod loads and runs fine without it.</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +175,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Commands&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Commands section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Commands&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Commands section"/>
 
 <div align="center">
 
@@ -152,17 +190,19 @@
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide list</kbd></td><td align="center" width="70%" style="width:70%;">List all books visible to the client. Click a line to insert <kbd>/guide open &lt;namespace&gt;</kbd> into chat; hover for details</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide list server</kbd></td><td align="center" width="70%" style="width:70%;">List books the server is currently distributing. Shows index, namespace, dev marker and disk path in hover</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide open &lt;namespace&gt;</kbd></td><td align="center" width="70%" style="width:70%;">Open a specific book by namespace from chat. Supports tab-completion</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide give &lt;book|scanner|diary&gt;</kbd> <kbd>[player]</kbd></td><td align="center" width="70%" style="width:70%;">Spawn a Guide item into your inventory, or into another player's with OP 2. Falls back to <code>player.drop()</code> when the inventory is full. 1-second per-player cooldown</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide unlock &lt;tag&gt;</kbd> <kbd>[player]</kbd></td><td align="center" width="70%" style="width:70%;">Grant an unlock tag to yourself or another player (OP 2 for other players)</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide lock &lt;tag&gt;</kbd> <kbd>[player]</kbd></td><td align="center" width="70%" style="width:70%;">Revoke an unlock tag from yourself or another player (OP 2 for other players)</td></tr>
 <tr><td align="center" width="30%" style="width:30%;"><kbd>/guide unlocks</kbd></td><td align="center" width="70%" style="width:70%;">List all unlock tags currently held by you</td></tr>
+<tr><td align="center" width="30%" style="width:30%;"><kbd>/guide unlocks clear</kbd> <kbd>[player]</kbd></td><td align="center" width="70%" style="width:70%;">Wipe every unlock tag from yourself, or from another player with OP 2. Useful for testing and admin housekeeping</td></tr>
 </tbody>
 </table>
 
-<sub>▸ All commands are available to all players by default — no OP or cheat requirements. Granting or revoking another player's tag requires OP level 2.</sub>
+<sub>▸ All commands except <code>/guide list server</code>, <code>/guide reload</code> server-side, and player-targeted unlock / lock / give variants are available to all players by default — no OP or cheat requirements.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Supported%20Versions&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Supported Versions section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Supported%20Versions&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Supported Versions section"/>
 
 <div align="center">
 
@@ -176,7 +216,7 @@
 <td align="center" width="10%" style="width:10%;"><img src="https://cdn.simpleicons.org/curseforge/F16436" width="34" height="34" alt="Minecraft Forge logo"/></td>
 <td align="center" width="20%" style="width:20%;"><b>Forge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.20.1</kbd></td>
-<td align="center" width="14%" style="width:14%;"><kbd>1.7.1+</kbd></td>
+<td align="center" width="14%" style="width:14%;"><kbd>1.8.0+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>17</kbd></td>
 <td align="center" width="14%" style="width:14%;">🟢 <b>Stable</b></td>
 <td align="center" width="18%" style="width:18%;"><code>forge-1.20.1</code></td>
@@ -185,7 +225,7 @@
 <td align="center" width="10%" style="width:10%;"><img src="https://neoforged.net/img/authors/neoforged.png" width="34" height="34" alt="NeoForge logo"/></td>
 <td align="center" width="20%" style="width:20%;"><b>NeoForge</b></td>
 <td align="center" width="14%" style="width:14%;"><kbd>1.21.1</kbd></td>
-<td align="center" width="14%" style="width:14%;"><kbd>1.5.1+</kbd></td>
+<td align="center" width="14%" style="width:14%;"><kbd>1.6.0+</kbd></td>
 <td align="center" width="10%" style="width:10%;"><kbd>21</kbd></td>
 <td align="center" width="14%" style="width:14%;">🟢 <b>Stable</b></td>
 <td align="center" width="18%" style="width:18%;"><code>neoforge-1.21.1</code></td>
@@ -193,18 +233,19 @@
 </tbody>
 </table>
 
-<sub>▸ Both branches share the same feature set — multimedia, Markdown rendering, multiblock projection and book gating are on par.</sub>
+<sub>▸ Both branches share the same feature set — multimedia, Markdown rendering, multiblock projection and book gating are on par. One small difference: on Forge, right-clicking the Curios belt slot opens the equipped item's screen (via <code>ICurioItem.curioRightClick</code>); on NeoForge this is no longer part of the Curios API, so use the <kbd>N</kbd> / <kbd>B</kbd> keybind instead.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Integrations&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Integrations section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Integrations&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Integrations section"/>
 
 <div align="center">
 
 <table width="100%" cellpadding="18" style="width:100%;">
 <colgroup><col width="22%"/><col width="78%"/></colgroup>
 <tbody>
-<tr><td align="center" width="22%" style="width:22%;">🧩 <b>JEI</b></td><td align="center" width="78%" style="width:78%;">Bind chapters to items with <code>@bind:mod_id:item</code>. Click guide item passposts to instantly open recipes.</td></tr>
+<tr><td align="center" width="22%" style="width:22%;">🧩 <b>JEI</b></td><td align="center" width="78%" style="width:78%;">Bind chapters to items with <code>@bind:mod_id:item</code>. Click guide item passposts to instantly open recipes. <em>Optional</em> — Guide works fine without it.</td></tr>
+<tr><td align="center" width="22%" style="width:22%;">🎒 <b>Curios</b></td><td align="center" width="78%" style="width:78%;">Soft dependency. When installed, the <code>guide_book</code> and <code>guide_diary</code> can be equipped in the belt slot; the equipped item is rendered on the player's model, and the <kbd>B</kbd> / <kbd>N</kbd> keybinds pick it up from there. The slot itself appears automatically for any player once the mod is loaded — no manual configuration required.</td></tr>
 <tr><td align="center" width="22%" style="width:22%;">🎬 <b>FFmpeg / JavaCV / JavaCPP</b></td><td align="center" width="78%" style="width:78%;">Video decoding, transcoding, and frame-level media access through native <b>FFmpeg</b> binaries, wrapped by <b>JavaCV</b> and bundled via <b>JavaCPP</b> for Windows, macOS, and Linux.</td></tr>
 <tr><td align="center" width="22%" style="width:22%;">💾 <b>Media Cache</b></td><td align="center" width="78%" style="width:78%;">Automatic background music ducking during video / sound playback, plus offline media caching.</td></tr>
 <tr><td align="center" width="22%" style="width:22%;">🔒 <b>KubeJS / FTB Quests / Advancements</b></td><td align="center" width="78%" style="width:78%;">Book gating hooks into anything that can dispatch a command. Grant tags with <code>/guide unlock &lt;tag&gt;</code> from KubeJS events, FTB Quests rewards, advancement functions, or script packs.</td></tr>
@@ -213,7 +254,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Directory%20Structure&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Directory Structure section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Directory%20Structure&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Directory Structure section"/>
 
 <pre><code>config/guide/books/&lt;book_id&gt;/
 ├── chapters/           # Content sections
@@ -229,6 +270,13 @@
 ├── textures/           # UI and image assets
 ├── structures/         # Multi-block .nbt blueprints
 └── book.json           # Metadata</code></pre>
+
+<pre><code>config/guide/
+├── books/              # One folder per book (see above)
+├── themes/             # Custom theme JSON files
+└── cache/              # Auto-managed
+    ├── media/          # Downloaded images, GIFs and videos
+    └── native/         # FFmpeg / JavaCV native libraries</code></pre>
 
 <pre><code>📄 Example book.json:
 
@@ -248,7 +296,7 @@
 
 <sub>▸ <code>unlock_tag</code> is optional. Leave it empty to keep the book public; set a tag (e.g. <code>"secret"</code>) to hide the book until the player receives that tag via <code>/guide unlock secret</code>. Tags are per-player and persist across sessions.</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Themes&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Themes section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Themes&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Themes section"/>
 
 <div align="center">
 <p>Every UI element is themeable via JSON. Custom themes live in <code>config/guide/themes/</code> — copy the template below, tweak the colors, and save it as a new file (for example, <code>my_theme.json</code>).</p>
@@ -392,7 +440,7 @@ Add a chapterBackground block to your theme to override the default background (
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Color%20format&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Color format section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Color%20format&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Color format section"/>
 
 <div align="center">
 
@@ -415,7 +463,7 @@ Add a chapterBackground block to your theme to override the default background (
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Requirements&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Requirements section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Requirements&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Requirements section"/>
 
 <div align="center">
 
@@ -429,14 +477,15 @@ Add a chapterBackground block to your theme to override the default background (
 <tr><td align="center" width="20%" style="width:20%;"><b>Loader</b></td><td align="center" width="20%" style="width:20%;"><code>Forge 47.x+</code><br/><code>NeoForge 21.x+</code></td><td align="center" width="25%" style="width:25%;">Latest stable release</td><td align="center" width="35%" style="width:35%;">Only one is required &mdash; choose per branch</td></tr>
 <tr><td align="center" width="20%" style="width:20%;"><b>Java</b></td><td align="center" width="20%" style="width:20%;"><code>JDK 17</code><br/><code>JDK 21</code></td><td align="center" width="25%" style="width:25%;"><code>17</code> for Forge<br/><code>21</code> for NeoForge</td><td align="center" width="35%" style="width:35%;">Version must match the loader branch</td></tr>
 <tr><td align="center" width="20%" style="width:20%;"><b>JEI</b> <sub>(optional)</sub></td><td align="center" width="20%" style="width:20%;">&mdash;</td><td align="center" width="25%" style="width:25%;">Latest for your MC build</td><td align="center" width="35%" style="width:35%;">Only needed for recipe integration via <code>@bind:</code></td></tr>
+<tr><td align="center" width="20%" style="width:20%;"><b>Curios</b> <sub>(optional)</sub></td><td align="center" width="20%" style="width:20%;">&mdash;</td><td align="center" width="25%" style="width:25%;">Latest for your MC build</td><td align="center" width="35%" style="width:35%;">Only needed for the belt slot integration and on-model rendering</td></tr>
 </tbody>
 </table>
 
-<sub>▸ Guide works standalone — JEI, Quests, and other integrations are entirely optional.</sub>
+<sub>▸ Guide works standalone — JEI, Curios, Quests, and other integrations are entirely optional.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Reporting%20Issues&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Reporting Issues section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Reporting%20Issues&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Reporting Issues section"/>
 
 <div align="center">
 
@@ -450,8 +499,8 @@ Add a chapterBackground block to your theme to override the default background (
 <tbody>
 <tr><td align="center" width="40%" style="width:40%;">Minecraft version</td><td align="center" width="60%" style="width:60%;"><code>1.20.1</code> · <code>1.21.1</code></td></tr>
 <tr><td align="center" width="40%" style="width:40%;">Loader + version</td><td align="center" width="60%" style="width:60%;"><code>Forge 47.4.20+</code> · <code>NeoForge 21.1.0+</code></td></tr>
-<tr><td align="center" width="40%" style="width:40%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.7.1</code> · <code>1.5.1-NeoForge</code></td></tr>
-<tr><td align="center" width="40%" style="width:40%;">Related mods</td><td align="center" width="60%" style="width:60%;">List of mods that may interact with Guide</td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Guide mod version</td><td align="center" width="60%" style="width:60%;"><code>1.8.0</code> · <code>1.6.0-NeoForge</code></td></tr>
+<tr><td align="center" width="40%" style="width:40%;">Related mods</td><td align="center" width="60%" style="width:60%;">List of mods that may interact with Guide (JEI, Curios, etc.)</td></tr>
 <tr><td align="center" width="40%" style="width:40%;">Screenshots</td><td align="center" width="60%" style="width:60%;">Attach if the issue is layout-related</td></tr>
 <tr><td align="center" width="40%" style="width:40%;">Crash report</td><td align="center" width="60%" style="width:60%;">Full <code>latest.log</code> or <code>crash-report</code> in a code block</td></tr>
 </tbody>
@@ -461,7 +510,7 @@ Add a chapterBackground block to your theme to override the default background (
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=Credits&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="Credits section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=Credits&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="Credits section"/>
 
 <div align="center">
 
@@ -472,6 +521,7 @@ Add a chapterBackground block to your theme to override the default background (
 </thead>
 <tbody>
 <tr><td align="center" width="10%" style="width:10%;">🧩</td><td align="center" width="30%" style="width:30%;"><b>Just Enough Items</b> <sub>(JEI)</sub></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/mezz"><kbd>mezz</kbd></a></td><td align="center" width="35%" style="width:35%;">In-game recipe integration</td></tr>
+<tr><td align="center" width="10%" style="width:10%;">🎒</td><td align="center" width="30%" style="width:30%;"><b>Curios</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/TheIllusiveC4"><kbd>TheIllusiveC4</kbd></a></td><td align="center" width="35%" style="width:35%;">Slot framework used for the belt integration</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">⚒️</td><td align="center" width="30%" style="width:30%;"><b>Minecraft Forge</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/LexManos"><kbd>LexManos</kbd></a> · <a href="https://github.com/cpw"><kbd>cpw</kbd></a></td><td align="center" width="35%" style="width:35%;">FML ecosystem · MCP tools</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🦊</td><td align="center" width="30%" style="width:30%;"><b>NeoForge</b></td><td align="center" width="25%" style="width:25%;"><kbd>NeoForge Team</kbd></td><td align="center" width="35%" style="width:35%;">Modern modding platform for 1.21.1</td></tr>
 <tr><td align="center" width="10%" style="width:10%;">🎬</td><td align="center" width="30%" style="width:30%;"><b>JavaCV</b></td><td align="center" width="25%" style="width:25%;"><a href="https://github.com/bytedeco"><kbd>bytedeco</kbd></a></td><td align="center" width="35%" style="width:35%;">Cross-platform Java wrapper for native media libraries</td></tr>
@@ -483,7 +533,7 @@ Add a chapterBackground block to your theme to override the default background (
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=70&amp;section=header&amp;text=License&amp;fontSize=36&amp;fontAlign=50&amp;fontAlignY=58" width="100%" alt="License section"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=70&section=header&text=License&fontSize=36&fontAlign=50&fontAlignY=58" width="100%" alt="License section"/>
 
 <div align="center">
 
@@ -497,7 +547,7 @@ Any modpack that uses Guide takes **full** responsibility for user support queri
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=120&amp;section=footer" width="100%" alt="Footer — Made with love for the Minecraft modding community by deaddiesel"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="Footer — Made with love for the Minecraft modding community by deaddiesel"/>
 
 **Made with ❤️ for the Minecraft modding community**
 
